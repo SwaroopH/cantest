@@ -90,3 +90,64 @@
 .site-footer .num {
   font-size: 0.75rem;
 }
+
+/* Classic corner ribbon — fixed so it stays visible above sticky chrome. */
+.github-fork {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 40;
+  width: 9.5rem;
+  height: 9.5rem;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.github-fork-label {
+  position: absolute;
+  top: 1.85rem;
+  right: -2.6rem;
+  width: 12rem;
+  padding: 0.45rem 0;
+  background: var(--signal);
+  color: var(--on-chroma);
+  font-family: var(--sans);
+  font-variation-settings: "wdth" 78;
+  font-weight: 700;
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  rotate: 45deg;
+  border-block: var(--kl) solid var(--ink);
+  transition: background var(--snap) var(--ease-block);
+}
+
+.github-fork:hover .github-fork-label,
+.github-fork:focus-visible .github-fork-label {
+  background: var(--signal-deep);
+}
+
+.github-fork:focus-visible {
+  outline: none;
+}
+
+.github-fork:focus-visible .github-fork-label {
+  outline: var(--kl-thick) solid var(--marigold);
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .github-fork {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .github-fork-label {
+    top: 1.15rem;
+    right: -2.85rem;
+    width: 10rem;
+    font-size: 0.5625rem;
+    padding: 0.35rem 0;
+  }
+}

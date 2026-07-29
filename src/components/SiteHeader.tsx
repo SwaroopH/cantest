@@ -1,4 +1,5 @@
 import { ratioToPct } from "../lib/css";
+import { GitHubBanner } from "./GitHubBanner";
 
 type Props = {
   onHome: () => void;
@@ -14,6 +15,7 @@ type Props = {
 export function SiteHeader({ onHome, shortLabel, progress }: Props) {
   return (
     <header className="band band-inverse masthead">
+      <GitHubBanner />
       <div className="band-inner masthead-inner">
         <button type="button" className="brand" onClick={onHome}>
           <span className="brand-word">CanTest</span>
