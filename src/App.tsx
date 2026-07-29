@@ -1,14 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ChapterPicker } from "./components/ChapterPicker";
-import { ProvincePicker } from "./components/ProvincePicker";
-import { QuestionCard } from "./components/QuestionCard";
+import type { CoverageRow } from "./components/CoverageChart";
 import { Results } from "./components/Results";
-import { Timer } from "./components/Timer";
+import { SiteFooter } from "./components/SiteFooter";
+import { SiteHeader } from "./components/SiteHeader";
 import { getQuestions } from "./data/loadQuestions";
 import {
   CHAPTERS,
   MOCK_DURATION_SECONDS,
-  MOCK_QUESTION_COUNT,
   PASS_SCORE,
   filterByChapter,
   filterForProvince,
@@ -18,6 +16,8 @@ import {
   scoreExam,
 } from "./lib/exam";
 import { getProvince, type ProvinceId } from "./lib/provinces";
+import { ExamScreen } from "./screens/ExamScreen";
+import { HomeScreen } from "./screens/HomeScreen";
 import type { ProgressStore, Question, View } from "./types";
 
 type Session = {
@@ -57,6 +57,16 @@ export default function App() {
     return counts;
   }, [scopedBank]);
 
+  const coverage = useMemo<CoverageRow[]>(
+    () =>
+      CHAPTERS.filter((c) => chapterCounts[c.id]).map((c) => ({
+        id: c.id,
+        title: c.title,
+        count: chapterCounts[c.id],
+      })),
+    [chapterCounts],
+  );
+
   useEffect(() => {
     if (!session || session.mode !== "mock" || view.name !== "mock") return;
     if (session.secondsLeft <= 0) return;
@@ -82,6 +92,10 @@ export default function App() {
       finishSession(session);
     }
   }, [session, view.name]);
+
+  function goHome() {
+    setView({ name: "home" });
+  }
 
   function setProvince(id: ProvinceId) {
     setProgress(saveProgress({ provinceId: id }));
@@ -166,107 +180,40 @@ export default function App() {
   if (view.name === "results" && resultSnapshot) {
     return (
       <div className="app-shell">
-        <SiteHeader
-          onHome={() => setView({ name: "home" })}
-          shortLabel={province.shortLabel}
+        <SiteHeader onHome={goHome} shortLabel={province.shortLabel} />
+        <Results
+          mode={resultSnapshot.mode}
+          questions={resultSnapshot.questions}
+          answers={resultSnapshot.answers}
+          score={resultSnapshot.score}
+          onHome={goHome}
+          onRetry={retry}
         />
-        <main className="main">
-          <Results
-            mode={resultSnapshot.mode}
-            questions={resultSnapshot.questions}
-            answers={resultSnapshot.answers}
-            score={resultSnapshot.score}
-            onHome={() => setView({ name: "home" })}
-            onRetry={retry}
-          />
-        </main>
         <SiteFooter />
       </div>
     );
   }
 
   if ((view.name === "mock" || view.name === "practice") && session) {
-    const q = session.questions[session.index];
     const answeredCount = session.answers.filter((a) => a !== null).length;
-    const isPractice = session.mode === "practice";
 
     return (
       <div className="app-shell">
         <SiteHeader
-          onHome={() => setView({ name: "home" })}
+          onHome={goHome}
           shortLabel={province.shortLabel}
+          progress={answeredCount / session.questions.length}
         />
-        <main className="main exam">
-          <div className="exam-toolbar">
-            {session.mode === "mock" ? (
-              <Timer secondsLeft={session.secondsLeft} totalSeconds={MOCK_DURATION_SECONDS} />
-            ) : (
-              <p className="practice-label">Practice · untimed</p>
-            )}
-            <p className="answered-count">
-              Answered {answeredCount}/{session.questions.length}
-            </p>
-          </div>
-
-          <QuestionCard
-            question={q}
-            index={session.index}
-            total={session.questions.length}
-            selected={session.answers[session.index]}
-            onSelect={selectAnswer}
-            revealCorrect={isPractice}
-          />
-
-          <nav className="exam-nav">
-            <button
-              type="button"
-              className="btn ghost"
-              disabled={session.index === 0}
-              onClick={() => goTo(session.index - 1)}
-            >
-              Previous
-            </button>
-            {session.index < session.questions.length - 1 ? (
-              <button
-                type="button"
-                className="btn primary"
-                disabled={isPractice && session.answers[session.index] === null}
-                onClick={() => goTo(session.index + 1)}
-              >
-                Next
-              </button>
-            ) : (
-              <button
-                type="button"
-                className="btn primary"
-                onClick={() => finishSession(session)}
-              >
-                {session.mode === "mock" ? "Submit exam" : "Finish practice"}
-              </button>
-            )}
-          </nav>
-
-          <div className="question-dots" aria-label="Question navigator">
-            {session.questions.map((_, i) => {
-              const locked =
-                isPractice && session.answers[i] === null && i > session.index;
-              return (
-                <button
-                  key={i}
-                  type="button"
-                  className={`dot ${i === session.index ? "current" : ""} ${
-                    session.answers[i] !== null ? "filled" : ""
-                  }`}
-                  disabled={locked}
-                  onClick={() => goTo(i)}
-                  aria-label={`Go to question ${i + 1}`}
-                >
-                  {i + 1}
-                </button>
-              );
-            })}
-          </div>
-        </main>
+        <ExamScreen
+          mode={session.mode}
+          questions={session.questions}
+          answers={session.answers}
+          index={session.index}
+          secondsLeft={session.secondsLeft}
+          onSelect={selectAnswer}
+          onGoTo={goTo}
+          onFinish={() => finishSession(session)}
+        />
         <SiteFooter />
       </div>
     );
@@ -274,112 +221,20 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <SiteHeader
-        onHome={() => setView({ name: "home" })}
-        shortLabel={province.shortLabel}
+      <SiteHeader onHome={goHome} shortLabel={province.shortLabel} />
+      <HomeScreen
+        province={province}
+        questionCount={scopedBank.length}
+        coverage={coverage}
+        chapterCounts={chapterCounts}
+        practiceChapter={practiceChapter}
+        progress={progress}
+        onProvinceChange={setProvince}
+        onPracticeChapterChange={setPracticeChapter}
+        onStartMock={startMock}
+        onStartPractice={startPractice}
       />
-      <main className="main home">
-        <section className="hero">
-          <p className="eyebrow">{province.name} · Discover Canada</p>
-          <h1>Citizenship mock test</h1>
-          <p className="lede">
-            Practice with {scopedBank.length} questions drawn from the official Discover Canada
-            study guide (including {province.capital} capital/region items). Mock exams:{" "}
-            {MOCK_QUESTION_COUNT} questions, 30 minutes, pass with {PASS_SCORE}/
-            {MOCK_QUESTION_COUNT}.
-          </p>
-        </section>
-
-        <ProvincePicker value={provinceId} onChange={setProvince} />
-
-        <section className="mode-grid">
-          <article className="mode-card">
-            <h2>Mock exam</h2>
-            <p>
-              Timed {MOCK_QUESTION_COUNT}-question set with chapter mix and at least one{" "}
-              {province.shortLabel} / regions question.
-            </p>
-            <button type="button" className="btn primary" onClick={startMock}>
-              Start mock exam
-            </button>
-            {progress.lastMockScore !== null && (
-              <p className="progress-note">
-                Last score: {progress.lastMockScore}/{MOCK_QUESTION_COUNT}{" "}
-                {progress.lastMockPassed ? "(passed)" : "(not passed)"}
-              </p>
-            )}
-          </article>
-
-          <article className="mode-card">
-            <h2>Practice by chapter</h2>
-            <p>Untimed practice with immediate feedback after each answer.</p>
-            <ChapterPicker
-              value={practiceChapter}
-              onChange={setPracticeChapter}
-              counts={chapterCounts}
-            />
-            <button type="button" className="btn primary" onClick={startPractice}>
-              Start practice
-            </button>
-            {progress.practiceAnswered > 0 && (
-              <p className="progress-note">
-                Practice answers recorded: {progress.practiceAnswered}
-              </p>
-            )}
-          </article>
-        </section>
-
-        <section className="coverage">
-          <h2>Coverage</h2>
-          <ul>
-            {CHAPTERS.filter((c) => chapterCounts[c.id]).map((c) => (
-              <li key={c.id}>
-                <span>{c.title}</span>
-                <span>{chapterCounts[c.id]}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <aside className="disclaimer">
-          <strong>Unofficial study aid.</strong> Only IRCC’s Discover Canada guide is
-          authoritative. Third-party tests and questions are not official. Source:{" "}
-          <a
-            href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Discover Canada (Canada.ca)
-          </a>
-          .
-        </aside>
-      </main>
       <SiteFooter />
     </div>
-  );
-}
-
-function SiteHeader({
-  onHome,
-  shortLabel,
-}: {
-  onHome: () => void;
-  shortLabel: string;
-}) {
-  return (
-    <header className="site-header">
-      <button type="button" className="brand" onClick={onHome}>
-        CanTest
-      </button>
-      <span className="region-tag">{shortLabel}</span>
-    </header>
-  );
-}
-
-function SiteFooter() {
-  return (
-    <footer className="site-footer">
-      Based on Discover Canada: The Rights and Responsibilities of Citizenship
-    </footer>
   );
 }

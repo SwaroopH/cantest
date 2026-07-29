@@ -13,6 +13,8 @@ type Props = {
 };
 
 const LETTERS = ["A", "B", "C", "D"] as const;
+const MARK_OK = "■";
+const MARK_BAD = "✕";
 
 export function QuestionCard({
   question,
@@ -23,25 +25,42 @@ export function QuestionCard({
   revealCorrect = false,
   disabled = false,
 }: Props) {
+  const revealed = revealCorrect && selected !== null;
+  const gotItRight = selected === question.correctIndex;
+
   return (
-    <article className="question-card">
-      <header className="question-meta">
-        <span>
-          Question {index + 1} of {total}
+    <article className="question">
+      <header className="question-head">
+        <span className="question-index num outline-type" aria-hidden="true">
+          {String(index + 1).padStart(2, "0")}
         </span>
-        <span className="chapter-chip">{chapterTitle(question.chapter)}</span>
+        <div className="question-head-meta">
+          <p className="eyebrow">
+            Question {index + 1} of {total}
+          </p>
+          <span className="chip chip--signal">{chapterTitle(question.chapter)}</span>
+        </div>
       </header>
+
       <h2 className="question-prompt">{question.prompt}</h2>
+
       <ul className="choices">
         {question.choices.map((choice, i) => {
           const isSelected = selected === i;
           const isCorrect = i === question.correctIndex;
+
           let stateClass = "";
-          if (revealCorrect && selected !== null) {
-            if (isCorrect) stateClass = "choice-correct";
-            else if (isSelected && !isCorrect) stateClass = "choice-wrong";
+          let mark = "";
+          if (revealed) {
+            if (isCorrect) {
+              stateClass = "choice--correct";
+              mark = MARK_OK;
+            } else if (isSelected) {
+              stateClass = "choice--wrong";
+              mark = MARK_BAD;
+            }
           } else if (isSelected) {
-            stateClass = "choice-selected";
+            stateClass = "choice--selected";
           }
 
           return (
@@ -50,20 +69,27 @@ export function QuestionCard({
                 type="button"
                 className={`choice ${stateClass}`}
                 onClick={() => onSelect(i)}
-                disabled={disabled || (revealCorrect && selected !== null)}
+                disabled={disabled || revealed}
                 aria-pressed={isSelected}
               >
                 <span className="choice-letter">{LETTERS[i]}</span>
                 <span className="choice-text">{choice}</span>
+                {mark && (
+                  <span className="choice-mark" aria-hidden="true">
+                    {mark}
+                  </span>
+                )}
               </button>
             </li>
           );
         })}
       </ul>
-      {revealCorrect && selected !== null && (
-        <div className={`feedback ${selected === question.correctIndex ? "ok" : "bad"}`}>
-          <p className="feedback-verdict">
-            {selected === question.correctIndex ? "Correct" : "Incorrect"}
+
+      {revealed && (
+        <div className={`feedback ${gotItRight ? "feedback--ok" : "feedback--bad"}`}>
+          <p className="feedback-verdict label">
+            <span aria-hidden="true">{gotItRight ? MARK_OK : MARK_BAD}</span>
+            {gotItRight ? "Correct" : "Incorrect"}
           </p>
           <p className="feedback-explain">{question.explanation}</p>
           <a href={question.sourceUrl} target="_blank" rel="noreferrer">

@@ -1,0 +1,435 @@
+/* ==========================================================================
+   Home — a supergraphic poster on an asymmetric 12-column grid
+   ========================================================================== */
+
+.home {
+  display: grid;
+  gap: var(--s7);
+}
+
+/* --- poster -------------------------------------------------------------- */
+
+.poster {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--s5);
+  align-items: start;
+}
+
+.poster-copy {
+  grid-column: 1 / 8;
+}
+
+.poster-eyebrow {
+  /* small text takes the deeper red: 4.7:1 on bone, where --signal is 3.7:1 */
+  color: var(--signal-deep);
+  margin-bottom: var(--s4);
+}
+
+.poster-title {
+  /* Slightly under full expansion so the longest line clears the column. */
+  font-variation-settings: "wdth" 112;
+  font-size: clamp(2.5rem, 6.2vw, 4.25rem);
+  display: grid;
+}
+
+.poster-line {
+  display: block;
+}
+
+.poster-line:nth-child(2) {
+  color: var(--signal);
+}
+
+.poster-lede {
+  margin-top: var(--s5);
+  max-width: 34rem;
+  color: var(--on-surface-muted);
+  font-size: 1.0625rem;
+}
+
+.poster-lede strong {
+  color: var(--on-surface);
+  font-weight: 600;
+}
+
+/* --- geometric mark: Expo's eight-fold radial symmetry, cropped by a frame */
+
+.geomark {
+  grid-column: 8 / 13;
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: var(--kl) solid var(--keyline);
+  background: var(--surface-sunk);
+}
+
+.geomark > * {
+  position: absolute;
+}
+
+/* The pinwheel — eight hard wedges, deliberately cropped top and right. */
+.geomark-disc {
+  width: 82%;
+  aspect-ratio: 1;
+  top: -14%;
+  right: -20%;
+  border-radius: 50%;
+  border: var(--kl) solid var(--keyline);
+  background: conic-gradient(
+    var(--signal) 0deg 45deg,
+    transparent 45deg 90deg,
+    var(--signal) 90deg 135deg,
+    transparent 135deg 180deg,
+    var(--signal) 180deg 225deg,
+    transparent 225deg 270deg,
+    var(--signal) 270deg 315deg,
+    transparent 315deg 360deg
+  );
+}
+
+.geomark-tri {
+  width: 46%;
+  aspect-ratio: 1;
+  bottom: 0;
+  left: 0;
+  background: var(--keyline);
+  clip-path: polygon(0 100%, 100% 100%, 0 0);
+}
+
+.geomark-arc {
+  width: 42%;
+  aspect-ratio: 2 / 1;
+  bottom: 12%;
+  right: 8%;
+  background: var(--marigold);
+  border-radius: 999px 999px 0 0;
+}
+
+.geomark-bar {
+  left: 0;
+  right: 0;
+  bottom: 32%;
+  height: var(--kl);
+  background: var(--keyline);
+}
+
+/* --- stat rail: flat cells divided by rules, no cards ------------------- */
+
+.statrail {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-block: var(--kl) solid var(--keyline);
+}
+
+/* column-reverse so the value reads above the label while the DOM keeps the
+   correct dt-then-dd order */
+.statrail-cell {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: var(--s4) var(--s4) var(--s4) 0;
+}
+
+.statrail-cell + .statrail-cell {
+  border-left: var(--kl) solid var(--keyline);
+  padding-left: var(--s4);
+}
+
+.statrail-value {
+  display: block;
+  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.statrail-cell:nth-child(1) .statrail-value {
+  color: var(--signal);
+}
+
+.statrail-label {
+  display: block;
+  margin-top: var(--s2);
+  color: var(--on-surface-muted);
+}
+
+/* --- province bar: a ruled band, not a card ---------------------------- */
+
+.province-bar {
+  border-block: var(--kl) solid var(--keyline);
+  padding-block: var(--s4);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: var(--s5);
+  align-items: end;
+}
+
+.province-hint {
+  color: var(--on-surface-muted);
+  font-size: 0.875rem;
+}
+
+.province-hint .num {
+  font-size: 0.8125rem;
+  color: var(--on-surface);
+}
+
+/* --- mode blocks: deliberately NOT twins ------------------------------- */
+
+.modes {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: var(--s5);
+}
+
+.mode {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  padding: var(--s6);
+  position: relative;
+  overflow: hidden;
+}
+
+.mode h2 {
+  font-variation-settings: "wdth" 118;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+  line-height: 1;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+}
+
+.mode p {
+  max-width: 30rem;
+}
+
+.mode .btn {
+  align-self: start;
+}
+
+/* Push the action (and the note trailing it) to the foot of the block. */
+.mode--mock .btn {
+  margin-top: auto;
+}
+
+.mode--practice .btn {
+  margin-top: var(--s1);
+}
+
+.mode-note {
+  font-size: 0.8125rem;
+}
+
+.mode--mock .eyebrow {
+  color: var(--accent-on-inverse);
+}
+
+.mode--practice .eyebrow {
+  color: var(--signal-deep);
+}
+
+/* the heavy one */
+.mode--mock {
+  background: var(--surface-inverse);
+  color: var(--on-inverse);
+  min-height: 17rem;
+}
+
+.mode--mock p {
+  color: var(--on-inverse-muted);
+}
+
+/* Ghost numeral bleeding off the corner. */
+.mode-ghost {
+  position: absolute;
+  right: -0.5rem;
+  bottom: -2.5rem;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 11rem;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  --outline-color: var(--on-inverse);
+  --outline-opacity: 0.22;
+  --outline-fallback-opacity: 0.12;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* the quiet one */
+.mode--practice {
+  border: var(--kl) solid var(--keyline);
+  background: var(--surface);
+}
+
+.mode--practice p {
+  color: var(--on-surface-muted);
+}
+
+.mode--practice .field {
+  margin-top: auto;
+}
+
+/* --- coverage as a bar chart ------------------------------------------- */
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s4);
+  padding-bottom: var(--s3);
+  border-bottom: var(--kl-thick) solid var(--keyline);
+  margin-bottom: var(--s2);
+}
+
+.section-head h2 {
+  font-variation-settings: "wdth" 118;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.coverage-row {
+  display: grid;
+  grid-template-columns: minmax(8rem, 15rem) minmax(0, 1fr) 3ch;
+  gap: var(--s4);
+  align-items: center;
+  padding-block: 0.5rem;
+  border-bottom: var(--kl) solid color-mix(in srgb, var(--keyline) 22%, transparent);
+}
+
+.coverage-row:last-child {
+  border-bottom: 0;
+}
+
+.coverage-name {
+  font-size: 0.8125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.coverage-bar {
+  height: 0.7rem;
+  background: var(--surface-sunk);
+  border: var(--kl) solid color-mix(in srgb, var(--keyline) 30%, transparent);
+}
+
+.coverage-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--signal);
+  transform-origin: left center;
+  animation: bar-grow 560ms var(--ease-block) both;
+  animation-delay: var(--d, 0ms);
+}
+
+@keyframes bar-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.coverage-count {
+  font-size: 0.8125rem;
+  text-align: right;
+  color: var(--on-surface-muted);
+}
+
+/* --- disclaimer -------------------------------------------------------- */
+
+.disclaimer {
+  border-left: var(--kl-edge) solid var(--marigold);
+  padding: var(--s1) 0 var(--s1) var(--s4);
+  font-size: 0.875rem;
+  color: var(--on-surface-muted);
+  max-width: 46rem;
+}
+
+.disclaimer strong {
+  font-variation-settings: "wdth" 78;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--on-surface);
+}
+
+/* --- responsive -------------------------------------------------------- */
+
+@media (max-width: 900px) {
+  .poster-copy {
+    grid-column: 1 / 13;
+  }
+
+  .geomark {
+    grid-column: 1 / 13;
+    aspect-ratio: 21 / 9;
+  }
+
+  .geomark-disc {
+    width: 34%;
+    top: -18%;
+    right: 6%;
+  }
+
+  .geomark-tri {
+    width: 18%;
+  }
+
+  .geomark-arc {
+    width: 16%;
+    right: 30%;
+  }
+
+  .modes {
+    grid-template-columns: 1fr;
+  }
+
+  .province-bar {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+}
+
+@media (max-width: 620px) {
+  .home {
+    gap: var(--s6);
+  }
+
+  .statrail {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .statrail-cell:nth-child(3) {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .statrail-cell:nth-child(-n + 2) {
+    border-bottom: var(--kl) solid var(--keyline);
+  }
+
+  .mode {
+    padding: var(--s5);
+  }
+
+  .mode-ghost {
+    font-size: 7rem;
+    bottom: -1.5rem;
+  }
+
+  .coverage-row {
+    grid-template-columns: minmax(0, 1fr) 3ch;
+    gap: var(--s3);
+  }
+
+  .coverage-bar {
+    grid-column: 1 / 3;
+  }
+}

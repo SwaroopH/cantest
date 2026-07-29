@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Tokens — Expo 67 modernism
+   Flat colour fields, ink keylines, no soft shadows, no soft radii.
+   Palette tokens are raw; everything downstream consumes the semantic layer
+   so the dark theme is a single small override block at the bottom.
+   ========================================================================== */
+
+:root {
+  color-scheme: light dark;
+
+  /* ---- raw palette (light) ---- */
+  --bone: #f4f0e7;
+  --bone-2: #eae4d7;
+  --ink: #15171b;
+  --ink-2: #5a5d64;
+  --signal: #e23b26; /* graphic blocks, bars, markers, large display type */
+  --signal-deep: #c62d1c; /* any red surface carrying small text (4.7:1) */
+  --marigold: #efa820; /* always pairs with dark text, never light */
+  --pine: #14654a;
+  --oxblood: #a32218;
+
+  /* ---- semantic surfaces ---- */
+  --surface: var(--bone);
+  --surface-sunk: var(--bone-2);
+  --on-surface: var(--ink);
+  --on-surface-muted: var(--ink-2);
+  --keyline: var(--ink);
+
+  /* inverted blocks (masthead, exam toolbar, mock card, results band) */
+  --surface-inverse: var(--ink);
+  --on-inverse: var(--bone);
+  --on-inverse-muted: #9ea1a8;
+
+  /* text colour that sits on a chromatic fill.
+     Light theme: chromatics are dark enough to take bone.
+     Dark theme: chromatics brighten, so they take near-black instead. */
+  --on-chroma: var(--bone);
+  --on-marigold: var(--ink); /* marigold is too luminous for light text, always */
+
+  /* Accent for text and rules sitting ON an inverted band. The band flips
+     with the theme (dark block on a light page, light block on a dark page),
+     so this has to flip too — marigold reads 8.8:1 on ink but only 1.5:1 on
+     the light band, hence the deep ochre in dark mode. */
+  --accent-on-inverse: var(--marigold);
+  --urgent-on-inverse: var(--signal);
+
+  /* ---- geometry ---- */
+  --kl: 2px; /* the keyline — replaces every 1px grey border */
+  --kl-thick: 3px;
+  --kl-edge: 6px; /* coloured left edge on flagged rows */
+  --radius: 0; /* deliberate: nothing in this design is rounded */
+
+  /* ---- spacing (4px base) ---- */
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4rem;
+  --s9: 6rem;
+
+  /* ---- measure ---- */
+  --col: min(1120px, calc(100% - 2.5rem)); /* poster width, home + results */
+  --col-read: min(780px, calc(100% - 2.5rem)); /* reading width, exam */
+
+  /* ---- type ---- */
+  --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Martian Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Archivo carries a width axis (62–125). Three widths do all the work:
+     expanded for display, normal for body, narrow for labels. */
+  --wide: 125%;
+  --normal: 100%;
+  --narrow: 78%;
+
+  /* ---- motion ---- */
+  --wipe: 520ms;
+  --snap: 130ms;
+  --ease-block: cubic-bezier(0.2, 0.85, 0.15, 1); /* mechanical, not floaty */
+
+  /* ---- patterns ---- */
+  /* Diagonal hatch. Uses currentColor so it inherits the row's own colour —
+     this is what keeps correct/incorrect from being signalled by hue alone. */
+  --hatch: repeating-linear-gradient(
+    45deg,
+    transparent 0 5px,
+    currentColor 5px 6px
+  );
+
+  /* Fixed geometric field — the era's grid, at a whisper. */
+  --field: repeating-linear-gradient(
+      45deg,
+      color-mix(in srgb, var(--ink) 3%, transparent) 0 1px,
+      transparent 1px 22px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      color-mix(in srgb, var(--ink) 3%, transparent) 0 1px,
+      transparent 1px 22px
+    );
+
+  /* Paper tooth. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-opacity: 0.055;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bone: #16181c;
+    --bone-2: #0f1114;
+    --ink: #f2eee4;
+    --ink-2: #a0a3aa;
+    --signal: #ff5340;
+    --signal-deep: #ff5340;
+    --marigold: #ffb735;
+    --pine: #3fae81;
+    --oxblood: #e8564a;
+
+    /* Inverted blocks flip too: on a dark ground they become the light ones. */
+    --surface-inverse: #f2eee4;
+    --on-inverse: #16181c;
+    --on-inverse-muted: #4c4f56;
+
+    /* Brightened chromatics now need dark text. */
+    --on-chroma: #16181c;
+    --on-marigold: #16181c;
+
+    /* The band is light here, so its accents go dark. */
+    --accent-on-inverse: #7a4b00;
+    --urgent-on-inverse: #a3261a;
+
+    --grain-opacity: 0.075;
+  }
+}

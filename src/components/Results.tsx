@@ -1,5 +1,5 @@
 import type { Question } from "../types";
-import { PASS_SCORE, chapterTitle, didPass } from "../lib/exam";
+import { MOCK_QUESTION_COUNT, PASS_SCORE, chapterTitle, didPass } from "../lib/exam";
 
 type Props = {
   mode: "mock" | "practice";
@@ -10,66 +10,128 @@ type Props = {
   onRetry: () => void;
 };
 
+const LETTERS = ["A", "B", "C", "D"] as const;
+const MARK_OK = "■";
+const MARK_BAD = "✕";
+
 export function Results({ mode, questions, answers, score, onHome, onRetry }: Props) {
   const total = questions.length;
   const passed = mode === "mock" ? didPass(score, total) : null;
-  const letters = ["A", "B", "C", "D"] as const;
 
   return (
-    <div className="results">
-      <header className="results-hero">
-        <p className="eyebrow">{mode === "mock" ? "Mock exam results" : "Practice results"}</p>
-        <h1>
-          {score} / {total}
-        </h1>
-        {mode === "mock" && (
-          <p className={`pass-badge ${passed ? "pass" : "fail"}`}>
-            {passed
-              ? `Passed (need ${PASS_SCORE}/${total})`
-              : `Did not pass (need ${PASS_SCORE}/${total})`}
-          </p>
-        )}
-        <div className="results-actions">
-          <button type="button" className="btn primary" onClick={onRetry}>
-            Try again
-          </button>
-          <button type="button" className="btn ghost" onClick={onHome}>
-            Home
-          </button>
-        </div>
-      </header>
+    <>
+      <div className="band band-inverse">
+        <div className="band-inner scoreband-inner">
+          <div className="score">
+            <p className="eyebrow">
+              {mode === "mock" ? "Mock exam · result" : "Practice · result"}
+            </p>
+            <p
+              className="score-fraction"
+              role="img"
+              aria-label={`Scored ${score} out of ${total}`}
+            >
+              <span className="score-got" aria-hidden="true">
+                {score}
+              </span>
+              <span className="score-slash" aria-hidden="true" />
+              <span className="score-total outline-type" aria-hidden="true">
+                {total}
+              </span>
+            </p>
+          </div>
 
-      <ol className="review-list">
-        {questions.map((q, i) => {
-          const ans = answers[i];
-          const correct = ans === q.correctIndex;
-          return (
-            <li key={q.id} className={`review-item ${correct ? "ok" : "bad"}`}>
-              <div className="review-head">
-                <span className="review-num">{i + 1}</span>
-                <span className="chapter-chip">{chapterTitle(q.chapter)}</span>
-                <span className="review-mark">{correct ? "Correct" : "Incorrect"}</span>
-              </div>
-              <p className="review-prompt">{q.prompt}</p>
-              <p className="review-answer">
-                Your answer:{" "}
-                {ans === null || ans === undefined
-                  ? "No answer"
-                  : `${letters[ans]}. ${q.choices[ans]}`}
-              </p>
-              {!correct && (
-                <p className="review-correct">
-                  Correct: {letters[q.correctIndex]}. {q.choices[q.correctIndex]}
-                </p>
-              )}
-              <p className="review-explain">{q.explanation}</p>
-              <a href={q.sourceUrl} target="_blank" rel="noreferrer">
-                Source chapter
-              </a>
-            </li>
-          );
-        })}
-      </ol>
-    </div>
+          {mode === "mock" && (
+            <p className={`verdict ${passed ? "verdict--pass" : "verdict--fail"}`}>
+              <span className="verdict-line">
+                <span aria-hidden="true">{passed ? MARK_OK : MARK_BAD}</span>
+                {passed ? "Approved" : "Not yet"}
+              </span>
+              <span className="verdict-sub">
+                {PASS_SCORE} of {MOCK_QUESTION_COUNT} to pass
+              </span>
+            </p>
+          )}
+
+          <div className="scoreband-actions">
+            <button type="button" className="btn btn--marigold" onClick={onRetry}>
+              Try again
+            </button>
+            <button type="button" className="btn btn--ghost" onClick={onHome}>
+              Home
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <main className="main results">
+        <div className="section-head">
+          <h2>Review</h2>
+          <span className="label muted">{total} questions</span>
+        </div>
+
+        <ol className="ledger">
+          {questions.map((q, i) => {
+            const ans = answers[i];
+            const correct = ans === q.correctIndex;
+
+            return (
+              <li
+                key={q.id}
+                className={`ledger-row ${correct ? "ledger-row--ok" : "ledger-row--bad"}`}
+              >
+                <div className="ledger-gutter">
+                  <span className="ledger-num">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="ledger-mark" aria-hidden="true">
+                    {correct ? MARK_OK : MARK_BAD}
+                  </span>
+                </div>
+
+                <div>
+                  <div className="ledger-head">
+                    <span className="chip">{chapterTitle(q.chapter)}</span>
+                    <span className="ledger-verdict">
+                      {correct ? "Correct" : "Incorrect"}
+                    </span>
+                  </div>
+
+                  <p className="ledger-prompt">{q.prompt}</p>
+
+                  <dl className="ledger-answers">
+                    <dt className="label">Your answer</dt>
+                    <dd>
+                      {ans === null || ans === undefined ? (
+                        <span className="muted">No answer</span>
+                      ) : (
+                        <>
+                          <span className="num">{LETTERS[ans]}</span>
+                          {q.choices[ans]}
+                        </>
+                      )}
+                    </dd>
+
+                    {!correct && (
+                      <>
+                        <dt className="label">Correct</dt>
+                        <dd>
+                          <span className="num">{LETTERS[q.correctIndex]}</span>
+                          {q.choices[q.correctIndex]}
+                        </dd>
+                      </>
+                    )}
+                  </dl>
+
+                  <p className="ledger-explain">{q.explanation}</p>
+
+                  <a className="ledger-src" href={q.sourceUrl} target="_blank" rel="noreferrer">
+                    Source chapter
+                  </a>
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </main>
+    </>
   );
 }

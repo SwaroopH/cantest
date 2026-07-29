@@ -1,0 +1,369 @@
+/* ==========================================================================
+   Exam / practice — ballot rows and a punch-card navigator
+   ========================================================================== */
+
+.examtoolbar {
+  position: sticky;
+  top: var(--masthead-h);
+  z-index: 15;
+}
+
+.examtoolbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  min-height: 4.25rem;
+  padding-block: var(--s3);
+}
+
+.examtoolbar-count .num {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent-on-inverse);
+}
+
+/* --- timer -------------------------------------------------------------- */
+
+.timer {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s3);
+}
+
+.timer-label {
+  color: var(--on-inverse-muted);
+}
+
+.timer-value {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 4.5vw, 2.125rem);
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+/* Both states sit on the inverted band, so they use the band accents. */
+.timer--warn .timer-value {
+  color: var(--accent-on-inverse);
+}
+
+.timer--urgent .timer-value {
+  color: var(--urgent-on-inverse);
+  animation: tick 1s steps(1, end) infinite;
+}
+
+@keyframes tick {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0.4;
+  }
+}
+
+/* --- question ----------------------------------------------------------- */
+
+.exam {
+  display: grid;
+  gap: var(--s5);
+  align-content: start;
+}
+
+.question {
+  display: grid;
+  gap: var(--s5);
+}
+
+.question-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: var(--s4);
+  align-items: center;
+  padding-bottom: var(--s3);
+  border-bottom: var(--kl-thick) solid var(--keyline);
+}
+
+/* Oversized outlined numeral, purely graphic — the live count stays in text. */
+.question-index {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: clamp(2.25rem, 8vw, 3.5rem);
+  line-height: 0.85;
+  letter-spacing: -0.06em;
+  --outline-color: var(--keyline);
+  --outline-opacity: 0.38;
+  --outline-fallback-opacity: 0.22;
+  user-select: none;
+}
+
+.question-head-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s2) var(--s4);
+}
+
+.question-head-meta .eyebrow {
+  color: var(--on-surface-muted);
+}
+
+.question-prompt {
+  font-weight: 500;
+  font-size: clamp(1.25rem, 3vw, 1.6875rem);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  max-width: 34rem;
+}
+
+/* --- choices as ballot rows -------------------------------------------- */
+
+.choices {
+  display: grid;
+  gap: var(--s2);
+}
+
+.choice {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  align-items: stretch;
+  text-align: left;
+  padding: 0;
+  border: var(--kl) solid var(--keyline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--on-surface);
+  cursor: pointer;
+  transition:
+    transform var(--snap) var(--ease-block),
+    background-color var(--snap) linear,
+    color var(--snap) linear,
+    border-color var(--snap) linear;
+}
+
+.choice-letter {
+  display: grid;
+  place-items: center;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  background: var(--surface-sunk);
+  border-right: var(--kl) solid var(--keyline);
+  transition:
+    background-color var(--snap) linear,
+    color var(--snap) linear;
+}
+
+.choice-text {
+  padding: 0.9rem 1rem;
+  line-height: 1.45;
+}
+
+.choice-mark {
+  display: grid;
+  place-items: center;
+  padding-inline: 1rem;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.9375rem;
+}
+
+.choice:hover:not(:disabled) {
+  transform: translateX(3px);
+}
+
+.choice:hover:not(:disabled) .choice-letter {
+  background: var(--signal-deep);
+  color: var(--on-chroma);
+}
+
+/* picked, answer not yet revealed (mock) */
+.choice--selected {
+  background: var(--on-surface);
+  color: var(--surface);
+  border-color: var(--on-surface);
+}
+
+.choice--selected .choice-letter {
+  background: var(--signal-deep);
+  color: var(--on-chroma);
+  border-right-color: var(--signal-deep);
+}
+
+/* revealed (practice) — glyph and pattern carry the state, not colour alone */
+.choice--correct {
+  background: var(--pine);
+  border-color: var(--pine);
+  color: var(--on-chroma);
+}
+
+.choice--correct .choice-letter {
+  background: color-mix(in srgb, var(--ink) 34%, var(--pine));
+  color: var(--on-chroma);
+  border-right-color: transparent;
+}
+
+.choice--wrong {
+  background: var(--oxblood);
+  border-color: var(--oxblood);
+  color: var(--on-chroma);
+}
+
+.choice--wrong .choice-letter {
+  background: color-mix(in srgb, var(--ink) 34%, var(--oxblood));
+  color: var(--on-chroma);
+  border-right-color: transparent;
+}
+
+.choice--wrong .choice-mark {
+  background-image: var(--hatch);
+}
+
+.choice:disabled {
+  cursor: default;
+}
+
+/* Unpicked rows recede once the answer is out. */
+.choice:disabled:not(.choice--correct):not(.choice--wrong) {
+  opacity: 0.45;
+}
+
+/* --- feedback ---------------------------------------------------------- */
+
+.feedback {
+  display: grid;
+  gap: var(--s2);
+  padding: var(--s4);
+  border: var(--kl) solid var(--keyline);
+  border-left-width: var(--kl-edge);
+}
+
+.feedback--ok {
+  border-color: var(--pine);
+}
+
+.feedback--bad {
+  border-color: var(--oxblood);
+}
+
+.feedback-verdict {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.feedback--ok .feedback-verdict {
+  color: var(--pine);
+}
+
+.feedback--bad .feedback-verdict {
+  color: var(--oxblood);
+}
+
+.feedback-explain {
+  color: var(--on-surface-muted);
+}
+
+.feedback a {
+  justify-self: start;
+  font-variation-settings: "wdth" 78;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* --- nav --------------------------------------------------------------- */
+
+.exam-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s3);
+}
+
+/* --- punch-card navigator ---------------------------------------------- */
+
+.ticketstrip-wrap {
+  margin-top: var(--s3);
+}
+
+.ticketstrip {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 var(--kl) var(--kl) 0;
+}
+
+.ticket {
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  /* collapse shared borders so the strip reads as one perforated card */
+  margin: 0 calc(-1 * var(--kl)) calc(-1 * var(--kl)) 0;
+  display: grid;
+  place-items: center;
+  border: var(--kl) solid var(--keyline);
+  background: var(--surface);
+  color: var(--on-surface-muted);
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.625rem;
+  cursor: pointer;
+  transition:
+    background-color var(--snap) linear,
+    color var(--snap) linear;
+}
+
+/* excludes the current square so hovering it never masks "you are here" */
+.ticket:hover:not(:disabled):not(.ticket--current) {
+  background: var(--marigold);
+  color: var(--on-marigold);
+  z-index: 1;
+}
+
+.ticket--filled {
+  background: var(--on-surface);
+  color: var(--surface);
+}
+
+.ticket--current {
+  z-index: 2;
+  background: var(--signal-deep);
+  border-color: var(--signal-deep);
+  color: var(--on-chroma);
+  box-shadow: 3px 3px 0 var(--marigold);
+}
+
+.ticket:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+  background-image: var(--hatch);
+}
+
+/* --- responsive -------------------------------------------------------- */
+
+@media (max-width: 620px) {
+  .exam-nav {
+    flex-direction: column-reverse;
+  }
+
+  .exam-nav .btn {
+    width: 100%;
+  }
+
+  .choice {
+    grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+  }
+
+  .choice-mark {
+    padding-inline: 0.65rem;
+  }
+
+  .question-head {
+    gap: var(--s3);
+  }
+}

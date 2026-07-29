@@ -1,0 +1,397 @@
+/* ==========================================================================
+   Base — reset, atmosphere, type defaults, focus, shared primitives
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-variation-settings: "wdth" 100;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--on-surface);
+  background-color: var(--surface);
+  background-image: var(--field);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Paper tooth over everything, inert to input. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background-image: var(--grain);
+  opacity: var(--grain-opacity);
+  mix-blend-mode: multiply;
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before {
+    mix-blend-mode: screen;
+  }
+}
+
+button,
+select,
+input {
+  font: inherit;
+  font-variation-settings: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--signal);
+}
+
+a:hover {
+  background: var(--signal-deep);
+  color: var(--on-chroma);
+  text-decoration-color: transparent;
+}
+
+/* --- focus: absent from the previous stylesheet entirely --- */
+:focus-visible {
+  outline: var(--kl) solid var(--signal);
+  outline-offset: 3px;
+}
+
+.band-inverse :focus-visible {
+  outline-color: var(--accent-on-inverse);
+}
+
+/* ==========================================================================
+   Layout scaffolding
+   ========================================================================== */
+
+/* Flex rather than fixed grid rows: each screen contributes a different
+   number of bands, and main should absorb the slack in every case. */
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-shell > main {
+  flex: 1;
+}
+
+/* Bands run edge to edge; their contents are held to the measure. */
+.band {
+  width: 100%;
+}
+
+.band-inverse {
+  background: var(--surface-inverse);
+  color: var(--on-inverse);
+}
+
+.band-inner {
+  width: var(--col);
+  margin-inline: auto;
+}
+
+.band-inner--read {
+  width: var(--col-read);
+}
+
+.main {
+  width: var(--col);
+  margin-inline: auto;
+  padding-block: var(--s6) var(--s8);
+}
+
+.main--read {
+  width: var(--col-read);
+}
+
+/* ==========================================================================
+   Type primitives — three widths of one family, plus mono for all data
+   ========================================================================== */
+
+.display {
+  font-variation-settings: "wdth" 125;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: -0.015em;
+}
+
+.eyebrow {
+  font-variation-settings: "wdth" 78;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  line-height: 1.3;
+}
+
+.label {
+  font-variation-settings: "wdth" 78;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.num {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.muted {
+  color: var(--on-surface-muted);
+}
+
+/* Stroke-only display numerals. The fallback keeps them visible-but-faint if
+   -webkit-text-stroke is unavailable, rather than rendering nothing at all. */
+.outline-type {
+  color: var(--outline-color, currentColor);
+  opacity: var(--outline-fallback-opacity, 0.3);
+}
+
+@supports (-webkit-text-stroke: 2px currentColor) {
+  .outline-type {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--outline-color, currentColor);
+    opacity: var(--outline-opacity, 1);
+  }
+}
+
+.band-inverse .muted {
+  color: var(--on-inverse-muted);
+}
+
+/* ==========================================================================
+   Chip — narrow caps in a keyline box with one corner cut off
+   ========================================================================== */
+
+.chip {
+  display: inline-block;
+  font-variation-settings: "wdth" 78;
+  font-weight: 600;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.6rem;
+  border: var(--kl) solid currentColor;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%);
+}
+
+.chip--marigold {
+  color: var(--accent-on-inverse);
+}
+
+.chip--signal {
+  color: var(--signal-deep);
+}
+
+/* ==========================================================================
+   Buttons — hard blocks. No radius, no soft shadow. Hover lifts the block
+   and drops a solid offset shadow, the way misregistered print does.
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s2);
+  border: var(--kl) solid var(--keyline);
+  border-radius: var(--radius);
+  padding: 0.75rem 1.25rem;
+  font-variation-settings: "wdth" 78;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  background: transparent;
+  color: var(--on-surface);
+  transition:
+    transform var(--snap) var(--ease-block),
+    box-shadow var(--snap) var(--ease-block),
+    background-color var(--snap) linear,
+    color var(--snap) linear;
+}
+
+.btn:hover:not(:disabled) {
+  transform: translate(-3px, -3px);
+}
+
+.btn:active:not(:disabled) {
+  transform: translate(0, 0);
+  box-shadow: none !important;
+}
+
+.btn:disabled {
+  opacity: 0.32;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  background: var(--on-surface);
+  color: var(--surface);
+  border-color: var(--on-surface);
+}
+
+.btn--primary:hover:not(:disabled) {
+  background: var(--signal-deep);
+  border-color: var(--signal-deep);
+  color: var(--on-chroma);
+  box-shadow: 5px 5px 0 var(--on-surface);
+}
+
+.btn--ghost:hover:not(:disabled) {
+  box-shadow: 5px 5px 0 var(--signal);
+}
+
+/* Primary action sitting inside an inverted band. The keyline is the dark
+   text colour so the block always has a 3:1 boundary — a bare marigold fill
+   would only be 1.5:1 against the light band in dark mode. */
+.btn--marigold {
+  background: var(--marigold);
+  color: var(--on-marigold);
+  border-color: var(--on-marigold);
+}
+
+.btn--marigold:hover:not(:disabled) {
+  box-shadow: 5px 5px 0 var(--signal);
+}
+
+.band-inverse .btn--ghost,
+.mode--mock .btn--ghost {
+  color: var(--on-inverse);
+  border-color: var(--on-inverse);
+}
+
+/* ==========================================================================
+   Native select, restyled as a keyline field with a hard CSS chevron
+   ========================================================================== */
+
+.field {
+  display: grid;
+  gap: var(--s2);
+}
+
+.field > label {
+  color: var(--on-surface-muted);
+}
+
+.field-wrap {
+  position: relative;
+  display: block;
+}
+
+.field-wrap select {
+  appearance: none;
+  width: 100%;
+  padding: 0.7rem 2.75rem 0.7rem 0.85rem;
+  border: var(--kl) solid var(--keyline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.field-wrap select:hover {
+  background: var(--surface-sunk);
+}
+
+/* Marigold block with a triangle punched out of it. */
+.field-wrap::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0.85rem;
+  translate: 0 -50%;
+  width: 0.7rem;
+  height: 0.45rem;
+  background: var(--marigold);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Entrance — supergraphic blocks wipe in on a stagger. Set --d per element.
+   ========================================================================== */
+
+@keyframes wipe-in {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wipe {
+  animation: wipe-in var(--wipe) var(--ease-block) both;
+  animation-delay: var(--d, 0ms);
+}
+
+.rise {
+  animation: rise-in 400ms var(--ease-block) both;
+  animation-delay: var(--d, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 1ms !important;
+  }
+
+  .btn:hover:not(:disabled),
+  .choice:hover:not(:disabled) {
+    transform: none;
+  }
+}
