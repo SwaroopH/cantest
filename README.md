@@ -1,5 +1,7 @@
 # CanTest — Canada Citizenship Mock Test
 
+**Try it live:** [https://swarooph.github.io/cantest/](https://swarooph.github.io/cantest/)
+
 Unofficial local study tool based on IRCC’s [Discover Canada](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online.html) guide. Pick any **province or territory** for capital/region questions (default: British Columbia).
 
 This is **not** an official IRCC test. Only the Discover Canada study guide is authoritative.
@@ -20,6 +22,15 @@ npm run dev
 ```
 
 Open the URL Vite prints (usually `http://localhost:5173`).
+
+## Deploy (GitHub Pages)
+
+Configured for `https://swarooph.github.io/cantest/` (`base: '/cantest/'` in Vite; workflow on `master`).
+
+1. Push these changes to GitHub.
+2. In the repo: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+3. Push to `master` (or run the **Deploy static content to Pages** workflow manually).
+4. Site URL after a green Actions run: https://swarooph.github.io/cantest/
 
 ## Scripts
 
