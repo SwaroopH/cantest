@@ -52,3 +52,15 @@ Configured for `https://swarooph.github.io/cantest/` (`base: '/cantest/'` in Vit
 - 20 questions
 - 30 minutes
 - Pass: 15/20 (75%)
+
+## Licence
+
+Two different things live in this repo, under two different terms:
+
+- **Code** (`src/`, `scripts/`, config) — MIT, © 2026 Swaroop Hegde. See [LICENSE](LICENSE).
+- **Study content** (`data/questions.json`, `data/guide/`) — adapted from Discover Canada,
+  © His Majesty the King in Right of Canada, as represented by the Minister of Immigration,
+  Refugees and Citizenship Canada. Reproduced for non-commercial use. See [NOTICE](NOTICE).
+
+The MIT grant covers the code only; it does not extend to the Discover Canada material. This
+is not an official version of that material and is not endorsed by the Government of Canada.

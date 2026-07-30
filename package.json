@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": "Swaroop Hegde",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwaroopH/cantest.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

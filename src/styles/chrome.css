@@ -80,11 +80,42 @@
   margin-top: var(--s7);
   padding-block: var(--s4) var(--s6);
   border-top: var(--kl) solid var(--keyline);
+  display: grid;
+  gap: var(--s3);
+  color: var(--on-surface-muted);
+}
+
+.site-footer-row {
   display: flex;
   flex-wrap: wrap;
   gap: var(--s2) var(--s5);
   align-items: baseline;
-  color: var(--on-surface-muted);
+}
+
+/* One line, so it flows as text rather than as flex items — bare text nodes in
+   a flex container become separate items and break at the gaps. */
+.site-footer-byline {
+  margin: 0;
+  font-family: var(--sans);
+  font-variation-settings: "wdth" 78;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-wrap: pretty;
+  color: var(--on-surface);
+}
+
+/* Fine print — set off by a hairline so it reads as a separate register. */
+.site-footer-legal {
+  display: block;
+  max-width: 56rem;
+  padding-top: var(--s3);
+  border-top: var(--kl) solid color-mix(in srgb, var(--keyline) 20%, transparent);
+  font-size: 0.6875rem;
+  line-height: 1.7;
+  text-wrap: pretty;
 }
 
 .site-footer .num {

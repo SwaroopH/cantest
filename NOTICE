@@ -1,0 +1,44 @@
+CanTest — content provenance and licence scope
+==============================================
+
+The MIT licence in LICENSE covers the SOURCE CODE of this project only:
+everything under src/, scripts/, and the project configuration files.
+
+It does NOT cover the study content.
+
+Study content
+-------------
+
+The following are adapted from "Discover Canada: The Rights and
+Responsibilities of Citizenship", published by Immigration, Refugees and
+Citizenship Canada (IRCC):
+
+  data/guide/*.json    chapter text fetched from the online guide
+  data/questions.json  multiple-choice questions and explanations written
+                       from that guide, including the 3 official study
+                       questions reproduced from it
+
+That material is:
+
+  © His Majesty the King in Right of Canada, as represented by the Minister
+  of Immigration, Refugees and Citizenship Canada.
+
+It is reproduced here under the Government of Canada's terms for
+non-commercial reproduction. In line with those terms:
+
+  1. The Government of Canada is identified as the source.
+  2. This is NOT an official version of the material reproduced.
+  3. This reproduction is NOT made in affiliation with, or with the
+     endorsement of, the Government of Canada.
+
+Only the official Discover Canada guide is authoritative. This project is an
+unofficial study aid and is not an IRCC test.
+
+Source: https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online.html
+
+Reusing this project
+--------------------
+
+The MIT licence lets you reuse the code freely. If you redistribute the study
+content in data/, you are responsible for complying with the Government of
+Canada's reproduction terms yourself — the MIT grant does not extend to it.
