@@ -46,12 +46,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "Which two key documents contain many of our rights and freedoms?",
     "choices": [
-      "The Magna Carta and the Canadian Charter of Rights and Freedoms",
-      "NAFTA and the Official Languages Act",
       "The Criminal Code and the Bank Act",
-      "The Canada Health Act and the Income Tax Act"
+      "The Canada Health Act and the Income Tax Act",
+      "The Magna Carta and the Canadian Charter of Rights and Freedoms",
+      "NAFTA and the Official Languages Act"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The guide highlights Magna Carta (Great Charter of Freedoms) and the Canadian Charter of Rights and Freedoms (1982).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -61,11 +61,11 @@
     "prompt": "Habeas corpus is the right to:",
     "choices": [
       "Own property without taxation",
-      "Challenge unlawful detention by the state",
+      "Speak both official languages in court",
       "Serve in the Canadian Forces",
-      "Speak both official languages in court"
+      "Challenge unlawful detention by the state"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Habeas corpus, from English common law, is the right to challenge unlawful detention.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -74,12 +74,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "Which of the following is a fundamental freedom listed in the guide?",
     "choices": [
-      "Freedom of peaceful assembly",
       "Freedom from paying taxes",
       "Freedom to ignore court orders",
+      "Freedom of peaceful assembly",
       "Freedom to refuse jury duty"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Fundamental freedoms include conscience/religion, expression, peaceful assembly, and association.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -88,12 +88,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "What does equality of women and men mean in Canada?",
     "choices": [
-      "Men and women are equal under the law",
-      "Only women may serve on juries",
       "Men and women must earn the same salary in every job",
-      "Women cannot vote in territorial elections"
+      "Women cannot vote in territorial elections",
+      "Men and women are equal under the law",
+      "Only women may serve on juries"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "In Canada, men and women are equal under the law.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -102,12 +102,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "Which is an example of taking responsibility for yourself and your family?",
     "choices": [
-      "Getting a job and taking care of one’s family",
       "Refusing to obey any laws you disagree with",
       "Avoiding all community volunteering",
+      "Getting a job and taking care of one’s family",
       "Leaving children’s education entirely to the state with no parental role"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Responsibilities include getting a job, caring for family, and working hard according to one’s abilities.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -117,11 +117,11 @@
     "prompt": "Serving on a jury in Canada is:",
     "choices": [
       "Optional for all citizens forever",
-      "A legal requirement when you are called to do so",
       "Only for lawyers and judges",
+      "A legal requirement when you are called to do so",
       "Only required in Quebec"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "When called, you are legally required to serve on a jury.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -132,10 +132,10 @@
     "choices": [
       "Yes, for all adults aged 18–25",
       "Yes, but only in wartime",
-      "No, there is no compulsory military service",
-      "Only in the territories"
+      "Only in the territories",
+      "No, there is no compulsory military service"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "There is no compulsory military service; serving in the Forces is voluntary.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -144,12 +144,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "Canadian law sources mentioned in the guide include:",
     "choices": [
+      "Only the United Nations Charter",
       "Only municipal by-laws",
       "Laws of Parliament and provincial legislatures, English common law, the civil code of France, and an unwritten constitution",
-      "Only the United Nations Charter",
       "Only the Criminal Code of the United States"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Canadian law has several sources including Parliament/provincial laws, common law, the French civil code, and Britain’s unwritten constitution tradition.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -158,12 +158,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "The Canadian Charter of Rights and Freedoms was entrenched in:",
     "choices": [
-      "1867",
-      "1918",
       "1982",
-      "1999"
+      "1918",
+      "1999",
+      "1867"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "The Constitution was amended in 1982 to entrench the Charter.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -172,12 +172,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "Mobility rights in the Charter include the right of Canadian citizens to:",
     "choices": [
-      "Live and work anywhere in Canada",
-      "Demand free housing in any province",
       "Ignore provincial laws when travelling",
-      "Vote in U.S. elections"
+      "Demand free housing in any province",
+      "Vote in U.S. elections",
+      "Live and work anywhere in Canada"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Mobility rights include living and working anywhere in Canada and entering/leaving/returning to Canada.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -186,12 +186,12 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "Which is a citizenship responsibility listed in the guide?",
     "choices": [
-      "Helping others in the community",
-      "Owning a house",
+      "Serving as a senator",
       "Speaking three languages",
-      "Serving as a senator"
+      "Owning a house",
+      "Helping others in the community"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Responsibilities include volunteering/helping others, obeying the law, voting, jury duty, and protecting heritage/environment.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
   },
@@ -200,10 +200,10 @@
     "chapter": "rights-resonsibilities-citizenship",
     "prompt": "“No person or group is above the law” expresses which founding principle?",
     "choices": [
-      "Multiculturalism",
+      "Federalism",
       "The rule of law",
       "Free trade",
-      "Federalism"
+      "Multiculturalism"
     ],
     "correctIndex": 1,
     "explanation": "Obeying the law and the rule of law mean individuals and governments are regulated by laws, not arbitrary actions.",
@@ -215,9 +215,9 @@
     "prompt": "Who were the founding peoples of Canada?",
     "choices": [
       "Aboriginal, French and British",
+      "Viking, Russian and Portuguese",
       "American, Spanish and Dutch",
-      "Chinese, Ukrainian and German",
-      "Viking, Russian and Portuguese"
+      "Chinese, Ukrainian and German"
     ],
     "correctIndex": 0,
     "explanation": "Canada’s three founding peoples are Aboriginal, French and British.",
@@ -228,12 +228,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Who are the Métis?",
     "choices": [
-      "A distinct people of mixed Aboriginal and European ancestry",
       "Only Inuit living in Nunavut",
+      "A distinct people of mixed Aboriginal and European ancestry",
       "French settlers of Acadia only",
       "British Loyalists who fled the U.S."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The Métis are a distinct people of mixed Aboriginal and European ancestry; many speak Michif.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -242,12 +242,12 @@
     "chapter": "who-are-canadians",
     "prompt": "What does the word “Inuit” mean?",
     "choices": [
+      "Ice land",
       "The hunters",
-      "The people",
       "The northern lights",
-      "Ice land"
+      "The people"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Inuit means “the people” in the Inuktitut language.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -256,12 +256,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Today, “Aboriginal peoples” refers to which three groups?",
     "choices": [
+      "Anglophones, Francophones and Allophones",
       "First Nations (Indian), Inuit and Métis",
       "Acadians, Quebecers and Loyalists",
-      "Anglophones, Francophones and Allophones",
       "Senators, MPs and judges"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Aboriginal peoples refers to First Nations (Indian), Inuit and Métis.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -270,12 +270,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Which is the only officially bilingual province?",
     "choices": [
-      "Quebec",
       "Ontario",
       "New Brunswick",
-      "Manitoba"
+      "Manitoba",
+      "Quebec"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "New Brunswick is the only officially bilingual province.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -284,12 +284,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Canada is the only constitutional monarchy in:",
     "choices": [
-      "The Commonwealth",
-      "North America",
       "NATO",
-      "the G8"
+      "The Commonwealth",
+      "the G8",
+      "North America"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Canada is the only constitutional monarchy in North America.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -298,12 +298,12 @@
     "chapter": "who-are-canadians",
     "prompt": "A key phrase in Canada’s original 1867 constitutional document is:",
     "choices": [
-      "Life, Liberty and the Pursuit of Happiness",
       "Peace, Order, and Good Government",
       "Liberté, Égalité, Fraternité",
+      "Life, Liberty and the Pursuit of Happiness",
       "From Sea to Shining Sea"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Institutions uphold “Peace, Order, and Good Government.”",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -312,12 +312,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Territorial rights of Aboriginal peoples were first guaranteed through:",
     "choices": [
-      "The Official Languages Act (1969)",
       "The Royal Proclamation of 1763",
       "NAFTA (1994)",
+      "The Official Languages Act (1969)",
       "The Statute of Westminster (1931)"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "The Royal Proclamation of 1763 established the basis for negotiating treaties.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -326,12 +326,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Who are the Acadians?",
     "choices": [
+      "Scottish settlers of Cape Breton after 1900",
       "Descendants of French colonists who began settling in the Maritimes in 1604",
-      "Inuit communities of the High Arctic",
       "Métis of the Red River only",
-      "Scottish settlers of Cape Breton after 1900"
+      "Inuit communities of the High Arctic"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Acadians descend from French colonists in what are now the Maritime provinces.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -340,12 +340,12 @@
     "chapter": "who-are-canadians",
     "prompt": "English and French are Canada’s:",
     "choices": [
-      "Regional dialects only",
       "Official languages",
+      "Court languages in Ontario only",
       "Unofficial community languages",
-      "Court languages in Ontario only"
+      "Regional dialects only"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "English and French are the country’s official languages.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -355,11 +355,11 @@
     "prompt": "The House of Commons recognized in 2006 that the Québécois form:",
     "choices": [
       "A separate country",
-      "A nation within a united Canada",
       "A U.S. state",
+      "A nation within a united Canada",
       "A territory"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "The House recognized the Québécois as a nation within a united Canada.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -368,12 +368,12 @@
     "chapter": "who-are-canadians",
     "prompt": "Since the 1970s, most immigrants to Canada have come from:",
     "choices": [
-      "Asian countries",
+      "Only France",
       "Only the United Kingdom",
-      "Only the United States",
-      "Only France"
+      "Asian countries",
+      "Only the United States"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Since the 1970s, most immigrants have come from Asian countries.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
   },
@@ -382,12 +382,12 @@
     "chapter": "canadas-history",
     "prompt": "What does Confederation mean?",
     "choices": [
-      "The joining of provinces to form the Dominion of Canada in 1867",
+      "The creation of Nunavut in 1999",
       "Canada joining the United Nations",
-      "The end of the Second World War",
-      "The creation of Nunavut in 1999"
+      "The joining of provinces to form the Dominion of Canada in 1867",
+      "The end of the Second World War"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Confederation established the Dominion of Canada on July 1, 1867.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -410,12 +410,12 @@
     "chapter": "canadas-history",
     "prompt": "Who was Sir Louis-Hippolyte La Fontaine?",
     "choices": [
-      "The first leader of a responsible government in the Canadas",
       "Canada’s first Prime Minister",
+      "Commander at Vimy Ridge",
       "The founder of the Hudson’s Bay Company",
-      "Commander at Vimy Ridge"
+      "The first leader of a responsible government in the Canadas"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "La Fontaine became the first head of a responsible government (similar to a prime minister) in Canada in 1849.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -424,12 +424,12 @@
     "chapter": "canadas-history",
     "prompt": "What is meant by “responsible government”?",
     "choices": [
-      "Ministers of the Crown must have the support of a majority of elected representatives",
-      "The Governor General makes all laws alone",
       "Only property owners may vote forever",
-      "Provinces cannot pass any laws"
+      "Ministers of the Crown must have the support of a majority of elected representatives",
+      "Provinces cannot pass any laws",
+      "The Governor General makes all laws alone"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Responsible government means the ministry must retain the confidence of the assembly.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -439,11 +439,11 @@
     "prompt": "Jacques Cartier heard the Iroquoian word “kanata,” meaning:",
     "choices": [
       "Mountain",
-      "Village",
       "River",
-      "King"
+      "King",
+      "Village"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Kanata means “village”; by the 1550s “Canada” appeared on maps.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -452,12 +452,12 @@
     "chapter": "canadas-history",
     "prompt": "Who was the first to map Canada’s Atlantic shore (1497)?",
     "choices": [
-      "Samuel de Champlain",
-      "John Cabot",
       "James Wolfe",
-      "John A. Macdonald"
+      "John A. Macdonald",
+      "John Cabot",
+      "Samuel de Champlain"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "John Cabot mapped Canada’s East Coast in 1497.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -467,11 +467,11 @@
     "prompt": "Who built a fortress at what is now Québec City in 1608?",
     "choices": [
       "Jacques Cartier",
-      "Samuel de Champlain",
       "Lord Durham",
+      "Samuel de Champlain",
       "Wilfrid Laurier"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Champlain built a fortress at Québec City in 1608.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -494,10 +494,10 @@
     "chapter": "canadas-history",
     "prompt": "Who became Canada’s first Prime Minister in 1867?",
     "choices": [
-      "Sir Wilfrid Laurier",
+      "Louis Riel",
       "Sir John A. Macdonald",
-      "Robert Baldwin",
-      "Louis Riel"
+      "Sir Wilfrid Laurier",
+      "Robert Baldwin"
     ],
     "correctIndex": 1,
     "explanation": "Sir John Alexander Macdonald became Canada’s first Prime Minister.",
@@ -508,12 +508,12 @@
     "chapter": "canadas-history",
     "prompt": "British Columbia joined Canada in 1871 after Ottawa promised to:",
     "choices": [
+      "End all immigration",
       "Abolish the Senate",
       "Build a railway to the West Coast",
-      "Make Victoria the national capital",
-      "End all immigration"
+      "Make Victoria the national capital"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "B.C. joined after Ottawa promised a railway to the West Coast.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -522,12 +522,12 @@
     "chapter": "canadas-history",
     "prompt": "The Dominion of Canada was officially born on:",
     "choices": [
-      "July 1, 1867",
+      "June 6, 1944",
       "November 11, 1918",
       "April 17, 1982",
-      "June 6, 1944"
+      "July 1, 1867"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "July 1, 1867 — now Canada Day (formerly Dominion Day).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -537,9 +537,9 @@
     "prompt": "Which provinces formed Canada at Confederation in 1867?",
     "choices": [
       "Ontario, Quebec, New Brunswick and Nova Scotia",
+      "Manitoba, Alberta and Saskatchewan",
       "All ten current provinces",
-      "Only Ontario and Quebec",
-      "Manitoba, Alberta and Saskatchewan"
+      "Only Ontario and Quebec"
     ],
     "correctIndex": 0,
     "explanation": "Ontario, Quebec, New Brunswick and Nova Scotia formed the Dominion in 1867.",
@@ -550,12 +550,12 @@
     "chapter": "canadas-history",
     "prompt": "The first representative assembly in Canada was elected in:",
     "choices": [
+      "Iqaluit, 1999",
       "Toronto, 1867",
       "Halifax, Nova Scotia, in 1758",
-      "Vancouver, 1871",
-      "Iqaluit, 1999"
+      "Vancouver, 1871"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "The first representative assembly was elected in Halifax in 1758.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -564,12 +564,12 @@
     "chapter": "canadas-history",
     "prompt": "Upper Canada (later Ontario) and Lower Canada (later Quebec) were created by:",
     "choices": [
-      "The Constitutional Act of 1791",
-      "NAFTA",
       "The Official Languages Act",
-      "The Canada Health Act"
+      "The Canada Health Act",
+      "The Constitutional Act of 1791",
+      "NAFTA"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The Constitutional Act of 1791 divided the Province of Quebec into Upper and Lower Canada.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -578,10 +578,10 @@
     "chapter": "canadas-history",
     "prompt": "Louis Riel is best known for leading Métis resistance and the founding of:",
     "choices": [
-      "Nova Scotia",
+      "Prince Edward Island",
       "Manitoba",
-      "Yukon",
-      "Prince Edward Island"
+      "Nova Scotia",
+      "Yukon"
     ],
     "correctIndex": 1,
     "explanation": "After the Red River uprising, Canada established Manitoba; Riel remains a controversial Métis leader.",
@@ -592,12 +592,12 @@
     "chapter": "canadas-history",
     "prompt": "The North West Mounted Police (forerunner of the RCMP) was established in:",
     "choices": [
+      "1914",
       "1759",
       "1873",
-      "1914",
       "1982"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Prime Minister Macdonald established the NWMP in 1873.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -606,12 +606,12 @@
     "chapter": "canadas-history",
     "prompt": "Canadians remember veterans each year on Remembrance Day:",
     "choices": [
-      "July 1",
-      "November 11",
+      "December 25",
       "April 9",
-      "December 25"
+      "November 11",
+      "July 1"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Remembrance Day is November 11; Canadians wear a red poppy.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -620,12 +620,12 @@
     "chapter": "canadas-history",
     "prompt": "The Canadian Corps’ victory at Vimy Ridge was in:",
     "choices": [
-      "April 1917",
-      "June 1944",
+      "July 1867",
       "September 1759",
-      "July 1867"
+      "June 1944",
+      "April 1917"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Canadians captured Vimy Ridge in April 1917.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -635,11 +635,11 @@
     "prompt": "On D-Day (June 6, 1944), Canadian troops captured:",
     "choices": [
       "Vimy Ridge",
-      "Juno Beach",
+      "Hong Kong",
       "Dieppe",
-      "Hong Kong"
+      "Juno Beach"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "About 15,000 Canadian troops stormed and captured Juno Beach.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -649,11 +649,11 @@
     "prompt": "Which province first granted voting rights to women (1916)?",
     "choices": [
       "Ontario",
-      "Manitoba",
       "British Columbia",
+      "Manitoba",
       "Quebec"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Manitoba became the first province to grant voting rights to women in 1916.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -662,12 +662,12 @@
     "chapter": "canadas-history",
     "prompt": "Who was the founder of the women’s suffrage movement in Canada?",
     "choices": [
-      "Agnes Macphail",
       "Dr. Emily Stowe",
+      "Agnes Macphail",
       "Queen Victoria",
       "Laura Secord"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Dr. Emily Stowe, the first Canadian woman to practise medicine in Canada, founded the movement.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -676,12 +676,12 @@
     "chapter": "canadas-history",
     "prompt": "The Vikings reached Labrador and Newfoundland; their settlement remains are at:",
     "choices": [
+      "Port-Royal",
       "Banff",
       "l’Anse aux Meadows",
-      "Fort Garry",
-      "Port-Royal"
+      "Fort Garry"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "l’Anse aux Meadows is a World Heritage site.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -690,12 +690,12 @@
     "chapter": "canadas-history",
     "prompt": "The War of 1812 was a fight for Canada against invasion from:",
     "choices": [
-      "France",
       "the United States",
+      "Japan",
       "Germany",
-      "Japan"
+      "France"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "The guide frames the War of 1812 as the fight for Canada against the U.S.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
   },
@@ -746,12 +746,12 @@
     "chapter": "modern-canada",
     "prompt": "The Official Languages Act (1969) guarantees:",
     "choices": [
-      "French and English services in the federal government",
+      "Free university education",
       "That all provinces must be bilingual",
-      "That only French is used in Ottawa",
-      "Free university education"
+      "French and English services in the federal government",
+      "That only French is used in Ottawa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "It guarantees French and English services in the federal government.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -762,8 +762,8 @@
     "choices": [
       "The Quiet Revolution",
       "Confederation",
-      "The Great Depression",
-      "The Gold Rush"
+      "The Gold Rush",
+      "The Great Depression"
     ],
     "correctIndex": 0,
     "explanation": "Quebec experienced the Quiet Revolution in the 1960s.",
@@ -775,11 +775,11 @@
     "prompt": "Canada joined which Western military alliance during the Cold War?",
     "choices": [
       "NAFTA",
-      "NATO",
       "the Warsaw Pact",
-      "ASEAN"
+      "ASEAN",
+      "NATO"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Canada joined NATO and also NORAD with the United States.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -788,12 +788,12 @@
     "chapter": "modern-canada",
     "prompt": "Who invented the world system of standard time zones?",
     "choices": [
-      "Alexander Graham Bell",
       "Sir Sandford Fleming",
       "Joseph-Armand Bombardier",
-      "Terry Fox"
+      "Terry Fox",
+      "Alexander Graham Bell"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Sir Sandford Fleming invented the world system of standard time zones.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -803,11 +803,11 @@
     "prompt": "Joseph-Armand Bombardier invented the:",
     "choices": [
       "Telephone",
+      "Light bulb",
       "Snowmobile",
-      "Cardiac pacemaker",
-      "Light bulb"
+      "Cardiac pacemaker"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Bombardier invented the snowmobile.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -816,12 +816,12 @@
     "chapter": "modern-canada",
     "prompt": "The Group of Seven is best known for:",
     "choices": [
-      "Painting rugged wilderness landscapes",
+      "Inventing ice hockey",
       "Writing the Constitution",
-      "Founding the RCMP",
-      "Inventing ice hockey"
+      "Painting rugged wilderness landscapes",
+      "Founding the RCMP"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Founded in 1920, they developed a style capturing Canada’s wilderness landscapes.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -830,12 +830,12 @@
     "chapter": "modern-canada",
     "prompt": "Unemployment insurance (employment insurance) was introduced by the federal government in:",
     "choices": [
-      "1867",
-      "1940",
       "1982",
-      "2001"
+      "2001",
+      "1867",
+      "1940"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Unemployment insurance was introduced in 1940.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -844,12 +844,12 @@
     "chapter": "modern-canada",
     "prompt": "Oil discovery in Alberta in 1947 began:",
     "choices": [
-      "Canada’s modern energy industry",
       "Confederation",
-      "the Quiet Revolution",
-      "NAFTA"
+      "NAFTA",
+      "Canada’s modern energy industry",
+      "the Quiet Revolution"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The discovery of oil in Alberta in 1947 began Canada’s modern energy industry.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -858,12 +858,12 @@
     "chapter": "modern-canada",
     "prompt": "Today every citizen over what age may vote?",
     "choices": [
-      "16",
-      "18",
       "21",
-      "25"
+      "25",
+      "16",
+      "18"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Today every citizen over the age of 18 may vote.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -872,12 +872,12 @@
     "chapter": "modern-canada",
     "prompt": "Dr. John A. Hopps invented the first:",
     "choices": [
-      "Snowmobile",
       "Cardiac pacemaker",
       "Telephone",
+      "Snowmobile",
       "Maple syrup process"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Hopps invented the first cardiac pacemaker.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
   },
@@ -886,12 +886,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "What does it mean to say that Canada is a constitutional monarchy?",
     "choices": [
-      "The Head of State is a hereditary Sovereign who reigns according to the Constitution",
       "The Prime Minister is elected for life",
       "There is no Parliament",
+      "The Head of State is a hereditary Sovereign who reigns according to the Constitution",
       "Provinces elect the King"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Canada’s Head of State is a hereditary Sovereign who reigns in accordance with the Constitution.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -900,12 +900,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "What are the three branches of government?",
     "choices": [
-      "Executive, Legislative and Judicial",
+      "Senate, RCMP and Cabinet",
       "Federal, Provincial and Municipal only as branches",
       "Army, Navy and Air Force",
-      "Senate, RCMP and Cabinet"
+      "Executive, Legislative and Judicial"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "The three branches are Executive, Legislative and Judicial.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -914,12 +914,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "What is the difference between the role of the Sovereign and that of the Prime Minister?",
     "choices": [
+      "Neither has any constitutional role",
       "The Sovereign is Head of State; the Prime Minister is Head of Government and directs governing",
-      "They hold identical day-to-day powers",
       "The Prime Minister is Head of State; the Sovereign runs Cabinet",
-      "Neither has any constitutional role"
+      "They hold identical day-to-day powers"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "There is a clear distinction: Sovereign = head of state; PM = head of government.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -928,12 +928,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "Canada’s system of government is described as:",
     "choices": [
-      "A federal state, a parliamentary democracy and a constitutional monarchy",
       "A military dictatorship",
+      "A federal state, a parliamentary democracy and a constitutional monarchy",
       "A pure direct democracy with no Parliament",
       "A confederation of city-states only"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Three key facts: federal state, parliamentary democracy, constitutional monarchy.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -943,9 +943,9 @@
     "prompt": "Federal responsibilities include:",
     "choices": [
       "Defence, foreign policy, currency, criminal law and citizenship",
-      "Only municipal garbage collection",
       "Only education and hospitals",
-      "Only property and civil rights"
+      "Only property and civil rights",
+      "Only municipal garbage collection"
     ],
     "correctIndex": 0,
     "explanation": "Federal matters include defence, foreign affairs, currency, criminal law, citizenship, etc.",
@@ -956,12 +956,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "Provincial responsibilities include:",
     "choices": [
-      "Education, health, natural resources, property and civil rights",
-      "National defence only",
       "Printing money",
-      "Declaring war"
+      "National defence only",
+      "Declaring war",
+      "Education, health, natural resources, property and civil rights"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Provinces handle education, health, natural resources, property/civil rights, highways, municipal government.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -970,12 +970,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "Parliament has three parts:",
     "choices": [
-      "The Sovereign, the Senate and the House of Commons",
-      "The Premier, the Mayor and the Police",
+      "Cabinet, the RCMP and the courts",
       "NATO, the UN and the Commonwealth",
-      "Cabinet, the RCMP and the courts"
+      "The Sovereign, the Senate and the House of Commons",
+      "The Premier, the Mayor and the Police"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Parliament = Sovereign + Senate + House of Commons.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -984,12 +984,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "Senators are:",
     "choices": [
-      "Elected every four years by all citizens",
       "Appointed by the Governor General on the advice of the Prime Minister and serve until age 75",
+      "Selected by random lottery",
       "Chosen by provincial premiers only",
-      "Selected by random lottery"
+      "Elected every four years by all citizens"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Senators are appointed and serve until age 75.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -1013,11 +1013,11 @@
     "prompt": "In each province, the Sovereign is represented by the:",
     "choices": [
       "Mayor",
-      "Lieutenant Governor",
+      "Senator",
       "Commissioner of Elections",
-      "Senator"
+      "Lieutenant Governor"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Each province has a Lieutenant Governor.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -1027,9 +1027,9 @@
     "prompt": "Before a bill becomes law it must receive:",
     "choices": [
       "Royal Assent after passage by both Houses",
-      "Approval from the United Nations",
       "A national referendum every time",
-      "Consent of all ten premiers only"
+      "Consent of all ten premiers only",
+      "Approval from the United Nations"
     ],
     "correctIndex": 0,
     "explanation": "After Commons and Senate pass a bill, it receives Royal Assent.",
@@ -1040,12 +1040,12 @@
     "chapter": "how-canadians-govern-themselves",
     "prompt": "The Premier of a province has a role similar to:",
     "choices": [
-      "The Prime Minister in the federal government",
-      "The Chief Justice of Canada",
+      "A municipal councillor",
       "The U.S. President’s Cabinet secretary only",
-      "A municipal councillor"
+      "The Prime Minister in the federal government",
+      "The Chief Justice of Canada"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Premiers parallel the PM; Lieutenant Governors parallel the Governor General.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
   },
@@ -1055,8 +1055,8 @@
     "prompt": "Who is entitled to vote in Canadian federal elections?",
     "choices": [
       "Canadian citizens who are at least 18 and on the voters’ list",
-      "Any resident of Canada aged 16+",
       "Only property owners",
+      "Any resident of Canada aged 16+",
       "Only people born in Canada"
     ],
     "correctIndex": 0,
@@ -1068,10 +1068,10 @@
     "chapter": "federal-elections",
     "prompt": "In Canada, are you obliged to tell other people how you voted?",
     "choices": [
-      "Yes, you must tell your employer",
-      "No; you have the right to a secret ballot",
       "Yes, you must tell Elections Canada publicly",
-      "Only if your family asks"
+      "No; you have the right to a secret ballot",
+      "Only if your family asks",
+      "Yes, you must tell your employer"
     ],
     "correctIndex": 1,
     "explanation": "No one has the right to insist you say how you voted.",
@@ -1083,8 +1083,8 @@
     "prompt": "After an election, which party forms the government?",
     "choices": [
       "Ordinarily, the party with the most seats in the House of Commons",
-      "Always the Official Opposition",
       "The party that spends the most money",
+      "Always the Official Opposition",
       "The Senate majority party only"
     ],
     "correctIndex": 0,
@@ -1096,12 +1096,12 @@
     "chapter": "federal-elections",
     "prompt": "When you go to vote on election day, what do you do?",
     "choices": [
-      "Go to your polling station with proof of identity and address (and voter info card if you have it)",
-      "Mail your passport to Ottawa",
+      "Post your choice on social media as the official ballot",
       "Call your MP to cast your vote by phone only",
-      "Post your choice on social media as the official ballot"
+      "Go to your polling station with proof of identity and address (and voter info card if you have it)",
+      "Mail your passport to Ottawa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Vote at the polling station on your voter information card; bring ID and address proof.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
   },
@@ -1112,8 +1112,8 @@
     "choices": [
       "Riding or constituency",
       "Province",
-      "Cabinet",
-      "Senate division only"
+      "Senate division only",
+      "Cabinet"
     ],
     "correctIndex": 0,
     "explanation": "Electoral districts are also called ridings or constituencies.",
@@ -1124,12 +1124,12 @@
     "chapter": "federal-elections",
     "prompt": "If a party holds at least half the seats, it has a:",
     "choices": [
-      "Minority government",
       "Majority government",
-      "Coalition only",
-      "Dissolved Parliament"
+      "Minority government",
+      "Dissolved Parliament",
+      "Coalition only"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "At least half the seats = majority government.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
   },
@@ -1138,12 +1138,12 @@
     "chapter": "federal-elections",
     "prompt": "The Official Opposition is:",
     "choices": [
-      "The opposition party with the most members of the House of Commons",
       "Always the Senate",
+      "The opposition party with the most members of the House of Commons",
       "The Governor General’s staff",
       "Municipal mayors together"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The opposition party with the most MPs is the Official Opposition (Loyal Opposition).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
   },
@@ -1152,12 +1152,12 @@
     "chapter": "federal-elections",
     "prompt": "Federal elections must normally be held:",
     "choices": [
-      "On the third Monday in October every four years following the most recent general election",
       "Every year on Canada Day",
-      "Only when the Supreme Court orders it",
-      "Every ten years with the census"
+      "Every ten years with the census",
+      "On the third Monday in October every four years following the most recent general election",
+      "Only when the Supreme Court orders it"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Legislation sets a fixed-date framework; the PM may still ask for an earlier election.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
   },
@@ -1168,8 +1168,8 @@
     "choices": [
       "The Prime Minister’s Office",
       "Elections Canada",
-      "The RCMP",
-      "Statistics Canada alone"
+      "Statistics Canada alone",
+      "The RCMP"
     ],
     "correctIndex": 1,
     "explanation": "Elections Canada, a neutral agency of Parliament, produces the lists.",
@@ -1194,12 +1194,12 @@
     "chapter": "federal-elections",
     "prompt": "What are the three levels of government?",
     "choices": [
+      "Police, courts, and prisons only",
       "Federal, provincial/territorial, and municipal (local)",
-      "Senate, Commons, and Cabinet only",
       "NATO, UN, and Commonwealth",
-      "Police, courts, and prisons only"
+      "Senate, Commons, and Cabinet only"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Canadians elect governments at federal, provincial/territorial, and municipal levels.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
   },
@@ -1208,12 +1208,12 @@
     "chapter": "federal-elections",
     "prompt": "Canadian citizens who are 18 or older may:",
     "choices": [
+      "Appoint themselves as senators",
       "Run as candidates in a federal election",
       "Never run for office",
-      "Only vote if born in Canada",
-      "Appoint themselves as senators"
+      "Only vote if born in Canada"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Citizens 18+ may run in a federal election.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
   },
@@ -1224,8 +1224,8 @@
     "choices": [
       "To settle disputes; the police enforce the laws",
       "To write the federal budget",
-      "To appoint the Prime Minister every year",
-      "To replace Elections Canada"
+      "To replace Elections Canada",
+      "To appoint the Prime Minister every year"
     ],
     "correctIndex": 0,
     "explanation": "Courts settle disputes and the police enforce the laws.",
@@ -1236,12 +1236,12 @@
     "chapter": "justice-system",
     "prompt": "In Canada, are you allowed to question the police about their service or conduct?",
     "choices": [
-      "Yes — almost all forces have a process for concerns",
       "No — never under any circumstances",
       "Only if you are a lawyer",
+      "Yes — almost all forces have a process for concerns",
       "Only through the United Nations"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "You can question police about service or conduct; forces have complaint processes.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1251,11 +1251,11 @@
     "prompt": "Canada’s highest court is the:",
     "choices": [
       "Federal Court of Canada",
-      "Supreme Court of Canada",
       "Court of Queen’s Bench of Alberta",
-      "International Court of Justice"
+      "International Court of Justice",
+      "Supreme Court of Canada"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The Supreme Court of Canada is the country’s highest court.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1265,11 +1265,11 @@
     "prompt": "In criminal matters, Canadian justice is founded on:",
     "choices": [
       "Presumption of guilt",
+      "Secret evidence only",
       "Presumption of innocence",
-      "Trial by social media",
-      "Secret evidence only"
+      "Trial by social media"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Everyone is innocent until proven guilty.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1278,12 +1278,12 @@
     "chapter": "justice-system",
     "prompt": "Does the law apply to judges, politicians and the police?",
     "choices": [
-      "Yes — the law applies to everyone",
       "No — officials are exempt",
-      "Only to police",
-      "Only in the territories"
+      "Yes — the law applies to everyone",
+      "Only in the territories",
+      "Only to police"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The law applies to everyone, including judges, politicians and the police.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1292,12 +1292,12 @@
     "chapter": "justice-system",
     "prompt": "The RCMP serve as provincial police in all provinces and territories except:",
     "choices": [
+      "Nova Scotia and P.E.I.",
       "Ontario and Quebec",
-      "Alberta and B.C.",
       "Manitoba and Saskatchewan",
-      "Nova Scotia and P.E.I."
+      "Alberta and B.C."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "RCMP serve as provincial police except in Ontario and Quebec (which have provincial forces).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1306,12 +1306,12 @@
     "chapter": "justice-system",
     "prompt": "Due process means:",
     "choices": [
-      "The government must respect all legal rights a person is entitled to under the law",
       "Police may detain anyone indefinitely without reason",
       "Only wealthy people get trials",
-      "Laws do not apply to Cabinet"
+      "Laws do not apply to Cabinet",
+      "The government must respect all legal rights a person is entitled to under the law"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Due process requires government respect for legal rights.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1320,12 +1320,12 @@
     "chapter": "justice-system",
     "prompt": "If you cannot pay for a lawyer, in most communities:",
     "choices": [
-      "You have no options",
-      "Legal aid services may be available free or at low cost",
+      "Only the Premier can represent you",
       "You must leave the country",
-      "Only the Premier can represent you"
+      "Legal aid services may be available free or at low cost",
+      "You have no options"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Legal aid is available in most communities free or at low cost.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
   },
@@ -1334,12 +1334,12 @@
     "chapter": "canadian-symbols",
     "prompt": "Name two Canadian symbols.",
     "choices": [
-      "The maple leaf and the beaver",
+      "The Eiffel Tower and the rose",
       "The kangaroo and the kiwi",
       "The bald eagle and the stars and stripes only",
-      "The Eiffel Tower and the rose"
+      "The maple leaf and the beaver"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Among many symbols, the maple leaf and beaver are classic Canadian emblems.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
   },
@@ -1350,8 +1350,8 @@
     "choices": [
       "The Order of Canada",
       "The Victoria Cross",
-      "A Senate appointment",
-      "The Stanley Cup"
+      "The Stanley Cup",
+      "A Senate appointment"
     ],
     "correctIndex": 1,
     "explanation": "The Victoria Cross is the highest honour for valour in the presence of the enemy.",
@@ -1363,8 +1363,8 @@
     "prompt": "Canada’s national motto, A Mari Usque Ad Mare, means:",
     "choices": [
       "From sea to sea",
-      "Peace and prosperity",
       "Strong and free",
+      "Peace and prosperity",
       "True north"
     ],
     "correctIndex": 0,
@@ -1376,12 +1376,12 @@
     "chapter": "canadian-symbols",
     "prompt": "The current Canadian flag was raised for the first time in:",
     "choices": [
-      "1867",
-      "1921",
       "1965",
-      "1982"
+      "1982",
+      "1921",
+      "1867"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "A new Canadian flag was raised for the first time in 1965.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
   },
@@ -1404,12 +1404,12 @@
     "chapter": "canadian-symbols",
     "prompt": "Canada’s official summer sport is:",
     "choices": [
-      "Soccer",
-      "Lacrosse",
+      "Curling",
       "Canadian football",
-      "Curling"
+      "Lacrosse",
+      "Soccer"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Lacrosse, first played by Aboriginal peoples, is the official summer sport.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
   },
@@ -1418,12 +1418,12 @@
     "chapter": "canadian-symbols",
     "prompt": "Hockey is considered Canada’s:",
     "choices": [
-      "National winter sport",
       "Only Olympic sport",
       "Official summer sport",
+      "National winter sport",
       "Municipal by-law"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Hockey is Canada’s most popular spectator sport and the national winter sport.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
   },
@@ -1433,11 +1433,11 @@
     "prompt": "The Order of Canada was created in:",
     "choices": [
       "1867",
+      "1982",
       "1918",
-      "1967",
-      "1982"
+      "1967"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Canada started its own honours system with the Order of Canada in 1967.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
   },
@@ -1447,9 +1447,9 @@
     "prompt": "The beaver appears on which coin?",
     "choices": [
       "The five-cent coin",
-      "The fifty-dollar bill only",
       "Only gold coins",
-      "The loonie exclusively"
+      "The loonie exclusively",
+      "The fifty-dollar bill only"
     ],
     "correctIndex": 0,
     "explanation": "The beaver can be seen on the five-cent coin.",
@@ -1476,8 +1476,8 @@
     "choices": [
       "French royalty and Quebec’s heritage",
       "Inuit carving only",
-      "Prairie wheat farming",
-      "The RCMP Musical Ride only"
+      "The RCMP Musical Ride only",
+      "Prairie wheat farming"
     ],
     "correctIndex": 0,
     "explanation": "It became a symbol of French royalty and appears on Quebec’s flag.",
@@ -1488,10 +1488,10 @@
     "chapter": "canadian-symbols",
     "prompt": "The Royal Anthem of Canada is:",
     "choices": [
-      "O Canada",
+      "God Defend New Zealand",
       "God Save the King (or Queen)",
-      "The Maple Leaf Forever only",
-      "God Defend New Zealand"
+      "O Canada",
+      "The Maple Leaf Forever only"
     ],
     "correctIndex": 1,
     "explanation": "“God Save the King (or Queen)” is the Royal Anthem.",
@@ -1516,12 +1516,12 @@
     "chapter": "canadas-economy",
     "prompt": "Canada’s largest international trading partner is:",
     "choices": [
-      "China",
       "The United Kingdom",
-      "The United States",
-      "Japan"
+      "China",
+      "Japan",
+      "The United States"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "The United States is Canada’s largest trading partner; over three-quarters of exports go there.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
   },
@@ -1530,12 +1530,12 @@
     "chapter": "canadas-economy",
     "prompt": "Canada’s economy includes three main types of industries:",
     "choices": [
-      "Service, manufacturing, and natural resources",
-      "Only banking, tourism, and film",
+      "Army, navy, and air force",
       "Only federal, provincial, and municipal",
-      "Army, navy, and air force"
+      "Service, manufacturing, and natural resources",
+      "Only banking, tourism, and film"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Service, manufacturing, and natural resources.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
   },
@@ -1544,12 +1544,12 @@
     "chapter": "canadas-economy",
     "prompt": "NAFTA partnered Canada with the United States and:",
     "choices": [
-      "Mexico",
       "France",
-      "Australia",
-      "Brazil"
+      "Brazil",
+      "Mexico",
+      "Australia"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Mexico became a partner in NAFTA in 1994.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
   },
@@ -1559,9 +1559,9 @@
     "prompt": "Canada is part of which group of leading industrialized countries?",
     "choices": [
       "G8",
+      "Mercosur",
       "OPEC only",
-      "ASEAN",
-      "Mercosur"
+      "ASEAN"
     ],
     "correctIndex": 0,
     "explanation": "Canada is part of the G8 (as described in the study guide).",
@@ -1572,12 +1572,12 @@
     "chapter": "canadas-economy",
     "prompt": "Natural resources industries include:",
     "choices": [
+      "Only tourism",
       "Forestry, fishing, agriculture, mining and energy",
       "Only software and banking",
-      "Only tourism",
       "Only education"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Natural resources: forestry, fishing, agriculture, mining and energy.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
   },
@@ -1587,11 +1587,11 @@
     "prompt": "What is the capital of British Columbia?",
     "choices": [
       "Vancouver",
-      "Victoria",
       "Kelowna",
-      "Prince George"
+      "Prince George",
+      "Victoria"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The capital, Victoria, is a tourist centre and headquarters of the navy’s Pacific fleet.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1603,12 +1603,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Canada?",
     "choices": [
-      "Toronto",
-      "Montreal",
       "Ottawa",
-      "Vancouver"
+      "Toronto",
+      "Vancouver",
+      "Montreal"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Ottawa was chosen as the capital in 1857 by Queen Victoria.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1617,10 +1617,10 @@
     "chapter": "canadas-regions",
     "prompt": "British Columbia is known as Canada’s:",
     "choices": [
-      "Atlantic gateway",
+      "Northern diamond capital",
       "Pacific gateway",
       "Prairie breadbasket",
-      "Northern diamond capital"
+      "Atlantic gateway"
     ],
     "correctIndex": 1,
     "explanation": "B.C. is known for majestic mountains and as Canada’s Pacific gateway.",
@@ -1636,8 +1636,8 @@
     "choices": [
       "Canada’s largest and busiest port",
       "Only a ferry terminal",
-      "Located in Nova Scotia",
-      "Closed to international trade"
+      "Closed to international trade",
+      "Located in Nova Scotia"
     ],
     "correctIndex": 0,
     "explanation": "The Port of Vancouver, Canada’s largest and busiest, handles billions in trade.",
@@ -1651,12 +1651,12 @@
     "chapter": "canadas-regions",
     "prompt": "About one-half of all goods produced in B.C. are:",
     "choices": [
-      "Automotive parts",
       "Forestry products",
+      "Diamonds",
       "Wheat only",
-      "Diamonds"
+      "Automotive parts"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "About half of B.C. goods are forestry products — Canada’s most valuable forestry industry.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1670,8 +1670,8 @@
     "choices": [
       "Newfoundland and Labrador, Prince Edward Island, Nova Scotia and New Brunswick",
       "Ontario and Quebec",
-      "Manitoba, Saskatchewan and Alberta",
-      "Yukon, Northwest Territories and Nunavut"
+      "Yukon, Northwest Territories and Nunavut",
+      "Manitoba, Saskatchewan and Alberta"
     ],
     "correctIndex": 0,
     "explanation": "The four Atlantic provinces are NL, PEI, NS and NB.",
@@ -1682,9 +1682,9 @@
     "chapter": "canadas-regions",
     "prompt": "Canada is the _____ largest country on earth.",
     "choices": [
-      "largest",
-      "second largest",
       "third largest",
+      "second largest",
+      "largest",
       "fifth largest"
     ],
     "correctIndex": 1,
@@ -1696,12 +1696,12 @@
     "chapter": "canadas-regions",
     "prompt": "Canada has how many provinces and territories?",
     "choices": [
-      "10 provinces and 3 territories",
-      "13 provinces and 0 territories",
       "5 provinces and 5 territories",
+      "13 provinces and 0 territories",
+      "10 provinces and 3 territories",
       "8 provinces and 2 territories"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Ten provinces and three territories.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1710,12 +1710,12 @@
     "chapter": "canadas-regions",
     "prompt": "Which region includes Manitoba, Saskatchewan and Alberta?",
     "choices": [
-      "The Atlantic Provinces",
       "The Prairie Provinces",
-      "The West Coast",
-      "Central Canada"
+      "The Atlantic Provinces",
+      "Central Canada",
+      "The West Coast"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Manitoba, Saskatchewan and Alberta are the Prairie Provinces.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1725,8 +1725,8 @@
     "prompt": "Central Canada refers mainly to:",
     "choices": [
       "Ontario and Quebec",
-      "B.C. and Yukon",
       "The Atlantic provinces",
+      "B.C. and Yukon",
       "Nunavut only"
     ],
     "correctIndex": 0,
@@ -1738,12 +1738,12 @@
     "chapter": "canadas-regions",
     "prompt": "Nunavut means _____ in Inuktitut.",
     "choices": [
-      "Our land",
       "Ice fields",
-      "Northern lights",
-      "Big river"
+      "Big river",
+      "Our land",
+      "Northern lights"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Nunavut means “our land”; established in 1999; capital Iqaluit.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1752,12 +1752,12 @@
     "chapter": "canadas-regions",
     "prompt": "The North is often called the “Land of the Midnight Sun” because:",
     "choices": [
-      "In summer, daylight can last up to 24 hours",
       "The sun never sets in winter either",
-      "There are no seasons",
-      "It is south of the equator"
+      "In summer, daylight can last up to 24 hours",
+      "It is south of the equator",
+      "There are no seasons"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "At the height of summer, daylight can last up to 24 hours.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1766,12 +1766,12 @@
     "chapter": "canadas-regions",
     "prompt": "Mount Logan, the highest mountain in Canada, is located in:",
     "choices": [
-      "Alberta",
-      "British Columbia",
+      "Nunavut",
       "Yukon",
-      "Nunavut"
+      "Alberta",
+      "British Columbia"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Mount Logan is in Yukon.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1780,10 +1780,10 @@
     "chapter": "canadas-regions",
     "prompt": "Which province is the smallest and the birthplace of Confederation?",
     "choices": [
-      "Nova Scotia",
+      "Manitoba",
       "Prince Edward Island",
-      "New Brunswick",
-      "Manitoba"
+      "Nova Scotia",
+      "New Brunswick"
     ],
     "correctIndex": 1,
     "explanation": "P.E.I. is the smallest province and the birthplace of Confederation.",
@@ -1795,9 +1795,9 @@
     "prompt": "Toronto is:",
     "choices": [
       "Canada’s largest city and main financial centre",
+      "A territory",
       "The capital of Canada",
-      "The capital of British Columbia",
-      "A territory"
+      "The capital of British Columbia"
     ],
     "correctIndex": 0,
     "explanation": "Toronto is the largest city and the country’s main financial centre.",
@@ -1808,12 +1808,12 @@
     "chapter": "canadas-regions",
     "prompt": "B.C.’s Okanagan Valley is known for:",
     "choices": [
-      "Fruit orchards and wine",
       "Offshore oil only",
+      "Fruit orchards and wine",
       "Diamond mining",
       "The Bay of Fundy tides"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "B.C. is known for mining, fishing, and Okanagan fruit orchards and wine.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1825,12 +1825,12 @@
     "chapter": "canadas-regions",
     "prompt": "Warm airstreams from the Pacific give the B.C. coast:",
     "choices": [
-      "A temperate climate",
       "The coldest climate in Canada",
-      "A desert climate year-round",
-      "No rainfall ever"
+      "A temperate climate",
+      "No rainfall ever",
+      "A desert climate year-round"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Pacific airstreams give the B.C. coast a temperate climate.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1842,12 +1842,12 @@
     "chapter": "canadas-regions",
     "prompt": "Yellowknife is called the “diamond capital of North America” and is capital of:",
     "choices": [
+      "Northwest Territories",
       "Yukon",
       "Nunavut",
-      "Northwest Territories",
       "Manitoba"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Yellowknife is the capital of the Northwest Territories.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1856,12 +1856,12 @@
     "chapter": "canadas-regions",
     "prompt": "Five distinct regions of Canada listed in the guide are:",
     "choices": [
-      "Atlantic, Central, Prairie, West Coast, and Northern Territories",
       "Only East and West",
-      "Only provinces, no regions",
-      "Arctic, Antarctic, and Pacific only"
+      "Atlantic, Central, Prairie, West Coast, and Northern Territories",
+      "Arctic, Antarctic, and Pacific only",
+      "Only provinces, no regions"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "The guide lists those five regions.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   },
@@ -1870,12 +1870,12 @@
     "chapter": "canadas-regions",
     "prompt": "B.C. has the most extensive park system in Canada, with approximately:",
     "choices": [
-      "60 provincial parks",
       "600 provincial parks",
+      "60 provincial parks",
       "6 national parks only",
       "No parks"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Approximately 600 provincial parks.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1887,12 +1887,12 @@
     "chapter": "applying-citizenship",
     "prompt": "The citizenship test assesses knowledge of Canada and:",
     "choices": [
-      "The rights and responsibilities of citizenship",
       "Advanced calculus",
       "U.S. state capitals",
-      "Stock market trading"
+      "Stock market trading",
+      "The rights and responsibilities of citizenship"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "You are tested on knowledge of Canada and rights/responsibilities of citizenship (and language).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
   },
@@ -1901,12 +1901,12 @@
     "chapter": "applying-citizenship",
     "prompt": "Adult applicants of what age and over do not need to write the citizenship test (per the guide’s applying chapter)?",
     "choices": [
+      "65",
       "40",
       "55",
-      "65",
       "70"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Adult applicants 55 years of age and over do not need to write the citizenship test.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
   },
@@ -1915,12 +1915,12 @@
     "chapter": "applying-citizenship",
     "prompt": "If you pass the test and meet other requirements, you receive a Notice to Appear to:",
     "choices": [
-      "Take the Oath of Citizenship",
-      "Pay a new immigration fee only",
       "Leave Canada",
-      "Rewrite the test immediately"
+      "Rewrite the test immediately",
+      "Pay a new immigration fee only",
+      "Take the Oath of Citizenship"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "You get a Notice to Appear to Take the Oath of Citizenship.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
   },
@@ -1929,12 +1929,12 @@
     "chapter": "oath-citizenship",
     "prompt": "In Canada’s constitutional monarchy, the Oath of Citizenship professes loyalty to:",
     "choices": [
-      "A person (the Sovereign) who represents all Canadians",
       "Only the national flag",
       "Only the Prime Minister personally",
+      "A person (the Sovereign) who represents all Canadians",
       "The United Nations Charter alone"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "We profess loyalty to a person who represents all Canadians — the Sovereign.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html"
   },
@@ -1943,12 +1943,12 @@
     "chapter": "oath-citizenship",
     "prompt": "The Oath includes observing the laws of Canada including the Constitution, which recognizes:",
     "choices": [
-      "Aboriginal and treaty rights of First Nations, Inuit and Métis peoples",
-      "Only provincial sales tax rules",
+      "Municipal parking by-laws only",
       "U.S. constitutional amendments",
-      "Municipal parking by-laws only"
+      "Aboriginal and treaty rights of First Nations, Inuit and Métis peoples",
+      "Only provincial sales tax rules"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "The Oath affirms Aboriginal and treaty rights of Indigenous peoples.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html"
   },
@@ -1957,12 +1957,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Newfoundland and Labrador?",
     "choices": [
-      "St. John’s",
       "Halifax",
       "Charlottetown",
+      "St. John’s",
       "Fredericton"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "St. John’s is the capital of Newfoundland and Labrador.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1974,12 +1974,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Prince Edward Island?",
     "choices": [
-      "Halifax",
       "Charlottetown",
       "Fredericton",
-      "Moncton"
+      "Moncton",
+      "Halifax"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Charlottetown is the capital of Prince Edward Island, the birthplace of Confederation.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -1991,12 +1991,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Nova Scotia?",
     "choices": [
-      "Halifax",
       "Fredericton",
-      "Saint John",
-      "Charlottetown"
+      "Charlottetown",
+      "Halifax",
+      "Saint John"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Halifax is the capital of Nova Scotia and Canada’s largest east-coast naval base.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2009,9 +2009,9 @@
     "prompt": "What is the capital of New Brunswick?",
     "choices": [
       "Saint John",
-      "Moncton",
+      "Halifax",
       "Fredericton",
-      "Halifax"
+      "Moncton"
     ],
     "correctIndex": 2,
     "explanation": "Fredericton is the historic capital of New Brunswick.",
@@ -2026,11 +2026,11 @@
     "prompt": "What is the capital of Quebec?",
     "choices": [
       "Montreal",
-      "Québec City",
+      "Sherbrooke",
       "Ottawa",
-      "Sherbrooke"
+      "Québec City"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Québec City is the capital of Quebec.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2042,12 +2042,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Ontario?",
     "choices": [
-      "Ottawa",
       "Toronto",
-      "Hamilton",
-      "London"
+      "Ottawa",
+      "London",
+      "Hamilton"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Toronto is the capital of Ontario (and Canada’s largest city).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2060,9 +2060,9 @@
     "prompt": "What is the capital of Manitoba?",
     "choices": [
       "Winnipeg",
+      "Saskatoon",
       "Regina",
-      "Brandon",
-      "Saskatoon"
+      "Brandon"
     ],
     "correctIndex": 0,
     "explanation": "Winnipeg is the capital of Manitoba.",
@@ -2076,12 +2076,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Saskatchewan?",
     "choices": [
-      "Saskatoon",
       "Regina",
-      "Winnipeg",
-      "Edmonton"
+      "Saskatoon",
+      "Edmonton",
+      "Winnipeg"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Regina is the capital of Saskatchewan and home to the RCMP training academy.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2093,10 +2093,10 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Alberta?",
     "choices": [
-      "Calgary",
+      "Red Deer",
       "Edmonton",
       "Banff",
-      "Red Deer"
+      "Calgary"
     ],
     "correctIndex": 1,
     "explanation": "Edmonton is the capital of Alberta.",
@@ -2110,12 +2110,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Yukon?",
     "choices": [
-      "Yellowknife",
-      "Whitehorse",
       "Iqaluit",
-      "Dawson City"
+      "Dawson City",
+      "Whitehorse",
+      "Yellowknife"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Whitehorse is the territorial capital of Yukon.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2127,12 +2127,12 @@
     "chapter": "canadas-regions",
     "prompt": "What is the capital of Northwest Territories?",
     "choices": [
-      "Iqaluit",
-      "Whitehorse",
       "Yellowknife",
-      "Inuvik"
+      "Iqaluit",
+      "Inuvik",
+      "Whitehorse"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Yellowknife is the capital of the Northwest Territories, called the “diamond capital of North America.”",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2145,9 +2145,9 @@
     "prompt": "What is the capital of Nunavut?",
     "choices": [
       "Iqaluit",
-      "Yellowknife",
       "Whitehorse",
-      "Rankin Inlet"
+      "Rankin Inlet",
+      "Yellowknife"
     ],
     "correctIndex": 0,
     "explanation": "Iqaluit (formerly Frobisher Bay) is the capital of Nunavut.",
@@ -2161,12 +2161,12 @@
     "chapter": "canadas-regions",
     "prompt": "Newfoundland and Labrador is notable as:",
     "choices": [
+      "The Pacific gateway",
       "The most easterly point in North America, with its own time zone",
       "Canada’s only landlocked province",
-      "The Pacific gateway",
       "Home of Banff National Park"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Newfoundland and Labrador is the most easterly point in North America and has its own time zone.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2195,12 +2195,12 @@
     "chapter": "canadas-regions",
     "prompt": "Nova Scotia is known for:",
     "choices": [
-      "The world’s highest tides in the Bay of Fundy",
       "The Okanagan wine region",
+      "Mount Logan",
       "Oil sands development",
-      "Mount Logan"
+      "The world’s highest tides in the Bay of Fundy"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Nova Scotia is known for the world’s highest tides in the Bay of Fundy.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2212,12 +2212,12 @@
     "chapter": "canadas-regions",
     "prompt": "Which statement about New Brunswick is true?",
     "choices": [
-      "It is the only officially bilingual province",
       "It is Canada’s largest province by area",
       "Its capital is Saint John",
-      "It has no Atlantic coastline"
+      "It has no Atlantic coastline",
+      "It is the only officially bilingual province"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "New Brunswick is the only officially bilingual province.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2229,12 +2229,12 @@
     "chapter": "canadas-regions",
     "prompt": "Quebec is Canada’s main producer of:",
     "choices": [
-      "Wheat",
       "Pulp and paper",
       "Diamonds",
+      "Wheat",
       "Potash"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Quebec is Canada’s main producer of pulp and paper and a major hydro-electricity producer.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2246,10 +2246,10 @@
     "chapter": "canadas-regions",
     "prompt": "People in Ontario make up more than _____ of Canadians.",
     "choices": [
-      "one-tenth",
+      "one-half",
       "one-quarter",
       "one-third",
-      "one-half"
+      "one-tenth"
     ],
     "correctIndex": 2,
     "explanation": "At more than 12 million, Ontario’s people make up more than one-third of Canadians.",
@@ -2264,11 +2264,11 @@
     "prompt": "Winnipeg’s Exchange District includes which famous intersection?",
     "choices": [
       "Yonge and Bloor",
+      "Ste-Catherine and Peel",
       "Portage and Main",
-      "Robson and Granville",
-      "Ste-Catherine and Peel"
+      "Robson and Granville"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Portage and Main in Winnipeg is called the most famous street intersection in Canada.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2281,11 +2281,11 @@
     "prompt": "Saskatchewan has about _____ of the arable land in Canada.",
     "choices": [
       "10%",
-      "25%",
       "40%",
+      "25%",
       "75%"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Saskatchewan has 40% of the arable land in Canada and is the largest producer of grains and oilseeds.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2297,12 +2297,12 @@
     "chapter": "canadas-regions",
     "prompt": "Alberta is the largest Canadian producer of:",
     "choices": [
+      "Lobster",
       "Pulp and paper",
       "Oil and gas",
-      "Potatoes",
-      "Lobster"
+      "Potatoes"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Alberta is the largest producer of oil and gas; oil sands are a major energy source.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2314,12 +2314,12 @@
     "chapter": "canadas-regions",
     "prompt": "Yukon is famous for the Gold Rush of the 1890s and holds the record for:",
     "choices": [
+      "Canada’s longest bridge",
       "Canada’s hottest temperature",
       "The coldest temperature ever recorded in Canada (−63°C)",
-      "The largest population of any territory",
-      "Canada’s longest bridge"
+      "The largest population of any territory"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Yukon holds the record for the coldest temperature ever recorded in Canada (−63°C).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2331,12 +2331,12 @@
     "chapter": "canadas-regions",
     "prompt": "The Mackenzie River in the Northwest Territories is:",
     "choices": [
-      "The shortest river in Canada",
       "The second-longest river system in North America after the Mississippi",
-      "Located entirely in Nunavut",
-      "An artificial canal"
+      "An artificial canal",
+      "The shortest river in Canada",
+      "Located entirely in Nunavut"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "At 4,200 km, the Mackenzie is the second-longest river system in North America after the Mississippi.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
@@ -2349,15 +2349,1487 @@
     "prompt": "Nunavut was established in 1999 and its name means:",
     "choices": [
       "Northern lights",
+      "People of the dawn",
       "Our land",
-      "Ice bay",
-      "People of the dawn"
+      "Ice bay"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Nunavut means “our land” in Inuktitut; about 85% of the population is Inuit.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
     "provinceIds": [
       "nu"
     ]
+  },
+  {
+    "id": "gv-13",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "The federal and provincial governments share jurisdiction over:",
+    "choices": [
+      "Education and health care only",
+      "Criminal law and currency",
+      "Agriculture and immigration",
+      "Defence and foreign policy"
+    ],
+    "correctIndex": 2,
+    "explanation": "The guide states federalism shares jurisdiction over agriculture and immigration between Ottawa and the provinces.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-14",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "Cabinet ministers must retain the “confidence of the House,” meaning they:",
+    "choices": [
+      "Serve fixed five-year terms regardless of votes",
+      "Are appointed by the Supreme Court",
+      "Must resign if defeated in a non-confidence vote",
+      "Answer only to the Senate"
+    ],
+    "correctIndex": 2,
+    "explanation": "In Canada’s parliamentary democracy, Cabinet must keep the confidence of elected representatives and resign after a non-confidence defeat.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-15",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "How long do Senators normally serve?",
+    "choices": [
+      "Until age 75",
+      "For a fixed four-year term",
+      "For life with no age limit",
+      "Until the next general election"
+    ],
+    "correctIndex": 0,
+    "explanation": "Senators are appointed by the Governor General on the Prime Minister’s advice and serve until age 75.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-16",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "At the committee stage of a bill, members:",
+    "choices": [
+      "Give the bill royal assent",
+      "Study the bill clause by clause",
+      "Send the bill directly to the Sovereign",
+      "Print the bill for the first time only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Step 3 of the legislative process is Committee Stage, where members study the bill clause by clause.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-17",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "Who appoints the Governor General?",
+    "choices": [
+      "The House of Commons by majority vote",
+      "The Chief Justice of Canada",
+      "The provincial premiers jointly",
+      "The Sovereign on the advice of the Prime Minister"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Sovereign appoints the Governor General on the Prime Minister’s advice, usually for five years.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-18",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "In the three territories, who represents the federal government in a ceremonial role?",
+    "choices": [
+      "The Speaker of the Senate",
+      "The Commissioner",
+      "The Lieutenant Governor",
+      "The Minister of Defence"
+    ],
+    "correctIndex": 1,
+    "explanation": "In the territories, the Commissioner represents the federal government and plays a ceremonial role.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-19",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "Provincial legislature members may be called MLAs, MNAs, MPPs or MHAs depending on the:",
+    "choices": [
+      "Province or territory",
+      "Federal riding map",
+      "Age of the assembly",
+      "Party that won the most seats"
+    ],
+    "correctIndex": 0,
+    "explanation": "Titles for provincial/territorial legislators vary by jurisdiction (MLA, MNA, MPP, or MHA).",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "gv-20",
+    "chapter": "how-canadians-govern-themselves",
+    "prompt": "As Head of the Commonwealth, the Sovereign links Canada to other nations that cooperate to advance:",
+    "choices": [
+      "Only military alliances",
+      "A single shared currency",
+      "Compulsory military service",
+      "Social, economic and cultural progress"
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide notes the Sovereign, as Head of the Commonwealth, links Canada to nations cooperating on social, economic and cultural progress.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/how-canadians-govern-themselves.html"
+  },
+  {
+    "id": "rr-13",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Official language rights in the Charter mean French and English have equal status in:",
+    "choices": [
+      "Parliament and throughout the government",
+      "Municipal by-laws nationwide",
+      "Quebec courts exclusively",
+      "Private businesses only"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Charter’s official language rights give French and English equal status in Parliament and throughout the government.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-14",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Aboriginal peoples’ rights in the Charter mean Charter guarantees will not:",
+    "choices": [
+      "Adversely affect any treaty or other rights of Aboriginal peoples",
+      "Protect minority language education",
+      "Apply on reserve lands",
+      "Allow mobility between provinces"
+    ],
+    "correctIndex": 0,
+    "explanation": "The guide states Charter rights will not adversely affect treaty or other rights or freedoms of Aboriginal peoples.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-15",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Multiculturalism is described in the guide as:",
+    "choices": [
+      "Limited to official language minorities",
+      "A provincial responsibility only in Quebec",
+      "A temporary immigration program",
+      "A fundamental characteristic of the Canadian heritage and identity"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Charter section of the guide calls multiculturalism a fundamental characteristic of Canadian heritage and identity.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-16",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Helping others in the community as a citizenship responsibility includes:",
+    "choices": [
+      "Paying a community service tax instead of volunteering",
+      "Serving only if elected to municipal office",
+      "Mandatory unpaid labour for the federal government",
+      "Volunteering freely to help people in need or local charities"
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide lists helping others through unpaid volunteering—food banks, schools, charities—as a citizenship responsibility.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-17",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Protecting and enjoying our heritage and environment means citizens should:",
+    "choices": [
+      "Leave environmental policy entirely to industry",
+      "Avoid waste and pollution while protecting natural and cultural heritage",
+      "Export natural resources without regulation",
+      "Focus only on architectural heritage in Ottawa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Every citizen has a role in avoiding waste and pollution and protecting Canada’s natural, cultural and architectural heritage.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-18",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Young people can learn discipline, responsibility and skills by getting involved in:",
+    "choices": [
+      "The Senate page program only",
+      "The cadets",
+      "Compulsory military service",
+      "Municipal tax audits"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under Defending Canada, the guide encourages young people to join the cadets to learn discipline, responsibility and skills.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-19",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "Besides the regular Forces, the guide notes you may also serve in:",
+    "choices": [
+      "The Coast Guard or community emergency services such as police or fire",
+      "Provincial senates",
+      "The United Nations General Assembly as a voting member",
+      "Private security firms with federal badges"
+    ],
+    "correctIndex": 0,
+    "explanation": "Citizens may serve in the Coast Guard or local emergency services (police, fire) to protect the community.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "rr-20",
+    "chapter": "rights-resonsibilities-citizenship",
+    "prompt": "The Charter begins by recognizing the supremacy of God and:",
+    "choices": [
+      "The supremacy of Parliament alone",
+      "The primacy of common law over statute",
+      "The rule of law",
+      "Provincial sovereignty"
+    ],
+    "correctIndex": 2,
+    "explanation": "The entrenched Charter opens by recognizing the supremacy of God and the rule of law.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html"
+  },
+  {
+    "id": "hi-25",
+    "chapter": "canadas-history",
+    "prompt": "In 1670, King Charles II granted the Hudson’s Bay Company exclusive trading rights over:",
+    "choices": [
+      "All of New France",
+      "The entire Great Lakes basin only",
+      "The watershed draining into Hudson Bay",
+      "The Pacific coast fur trade"
+    ],
+    "correctIndex": 2,
+    "explanation": "Charles II granted the HBC exclusive trading rights over the watershed draining into Hudson Bay.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-26",
+    "chapter": "canadas-history",
+    "prompt": "The Quebec Act of 1774 is described as one of Canada’s constitutional foundations because it:",
+    "choices": [
+      "Joined Quebec to the United States",
+      "Abolished the French language in courts",
+      "Accommodated British institutions with French civil law and religion",
+      "Created the Senate of Canada"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Quebec Act accommodated British institutions with the religious freedom and civil law of the French Roman Catholic majority.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-27",
+    "chapter": "canadas-history",
+    "prompt": "After the American Revolution, more than 40,000 people loyal to the Crown fled north; they were called:",
+    "choices": [
+      "Fathers of Confederation",
+      "Voyageurs",
+      "Habitants",
+      "United Empire Loyalists"
+    ],
+    "correctIndex": 3,
+    "explanation": "Loyalists—people loyal to the Crown—fled the Thirteen Colonies to British North America after 1776.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-28",
+    "chapter": "canadas-history",
+    "prompt": "Lieutenant Colonel John Graves Simcoe is credited with making Upper Canada the first province in the British Empire to:",
+    "choices": [
+      "Adopt the metric system",
+      "Abolish slavery",
+      "Join Confederation",
+      "Elect women to the assembly"
+    ],
+    "correctIndex": 1,
+    "explanation": "As Upper Canada’s first Lieutenant Governor, Simcoe made it the first British Empire province to abolish slavery.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-29",
+    "chapter": "canadas-history",
+    "prompt": "In 1813, Laura Secord warned of a planned American attack after a dangerous journey of about:",
+    "choices": [
+      "Across Lake Ontario by boat only",
+      "5 kilometres",
+      "30 kilometres (19 miles)",
+      "100 kilometres"
+    ],
+    "correctIndex": 2,
+    "explanation": "Laura Secord walked about 19 miles (30 km) to warn Lieutenant FitzGibbon of a planned American attack.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-30",
+    "chapter": "canadas-history",
+    "prompt": "The first British North American colony to attain full responsible government was:",
+    "choices": [
+      "Manitoba in 1870",
+      "Nova Scotia in 1847–48",
+      "British Columbia in 1871",
+      "The Province of Canada in 1867"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nova Scotia was the first British North American colony to attain full responsible government (1847–48).",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-31",
+    "chapter": "canadas-history",
+    "prompt": "Sir Leonard Tilley suggested the term “Dominion of Canada,” inspired by a biblical phrase about dominion:",
+    "choices": [
+      "Under one crown alone",
+      "From mountain to mountain",
+      "Among the provinces forever",
+      "From sea to sea"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tilley drew on Psalm 72—“dominion from sea to sea and from the river to the ends of the earth.”",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-32",
+    "chapter": "canadas-history",
+    "prompt": "Sir George-Étienne Cartier is best remembered as:",
+    "choices": [
+      "The key architect of Confederation from Quebec",
+      "The founder of the Hudson’s Bay Company",
+      "Commander at Vimy Ridge",
+      "Canada’s first Prime Minister"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cartier, a close ally of Macdonald, led Quebec into Confederation and helped negotiate entry of other provinces.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-33",
+    "chapter": "canadas-history",
+    "prompt": "Over 600,000 Canadians served in the First World War, most of them:",
+    "choices": [
+      "Conscriptees from the start",
+      "Volunteers",
+      "Naval reservists only",
+      "Members of the United States Army"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ottawa formed the Canadian Expeditionary Force; more than 600,000 served, most as volunteers.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-34",
+    "chapter": "canadas-history",
+    "prompt": "General Sir Arthur Currie is described in the guide as:",
+    "choices": [
+      "The founder of the RCMP",
+      "Prime Minister during Confederation",
+      "Canada’s first Governor General",
+      "Canada’s greatest soldier of the First World War era"
+    ],
+    "correctIndex": 3,
+    "explanation": "Under Currie’s command in 1918, the Canadian Corps advanced in the last hundred days; the guide calls him Canada’s greatest soldier.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-35",
+    "chapter": "canadas-history",
+    "prompt": "In the Battle of the Atlantic, the Royal Canadian Navy’s finest hour was:",
+    "choices": [
+      "Defending Hong Kong in 1941",
+      "Capturing Vimy Ridge",
+      "Protecting convoys of merchant ships against German submarines",
+      "Invading Normandy alone"
+    ],
+    "correctIndex": 2,
+    "explanation": "The RCN’s finest hour was the Battle of the Atlantic, protecting merchant convoys from German U-boats.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "hi-36",
+    "chapter": "canadas-history",
+    "prompt": "Mary Ann Shadd Cary became, in 1853, the first woman in Canada to:",
+    "choices": [
+      "Serve as Lieutenant Governor",
+      "Sit in the House of Commons",
+      "Publish as a newspaper founder/editor (The Provincial Freeman)",
+      "Command a militia unit"
+    ],
+    "correctIndex": 2,
+    "explanation": "An anti-slavery activist, she became the first woman publisher in Canada, helping found and edit The Provincial Freeman.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"
+  },
+  {
+    "id": "fe-13",
+    "chapter": "federal-elections",
+    "prompt": "Under current legislation, federal elections must normally be held on:",
+    "choices": [
+      "July 1 every four years",
+      "Whenever the Senate dissolves Parliament",
+      "The first Tuesday of November every five years",
+      "The third Monday in October every four years following the most recent general election"
+    ],
+    "correctIndex": 3,
+    "explanation": "Parliament set fixed-date elections for the third Monday in October every four years after the last general election.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
+  },
+  {
+    "id": "fe-14",
+    "chapter": "federal-elections",
+    "prompt": "The candidate who becomes MP for an electoral district is the one who:",
+    "choices": [
+      "Receives the most votes in that district",
+      "Is appointed by the Governor General",
+      "Wins a majority of votes nationwide",
+      "Has served the longest in the party"
+    ],
+    "correctIndex": 0,
+    "explanation": "Citizens in each riding elect one MP; the candidate with the most votes wins that seat.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
+  },
+  {
+    "id": "fe-15",
+    "chapter": "federal-elections",
+    "prompt": "If you do not receive a voter information card, you:",
+    "choices": [
+      "Must wait for the next election cycle",
+      "May only vote by mail from abroad",
+      "Can still be added to the voters’ list, including on election day",
+      "Cannot vote in that election"
+    ],
+    "correctIndex": 2,
+    "explanation": "Even without a card or National Register listing, you can be added to the list at any time, including election day.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
+  },
+  {
+    "id": "fe-16",
+    "chapter": "federal-elections",
+    "prompt": "When marking a federal ballot, you:",
+    "choices": [
+      "Write the candidate’s full platform",
+      "Mark an “X” in the circle next to the candidate of your choice",
+      "Sign your name on the ballot face",
+      "Rank all candidates in order"
+    ],
+    "correctIndex": 1,
+    "explanation": "Voting procedure: mark an “X” beside your chosen candidate behind the screen, then deposit the folded ballot.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
+  },
+  {
+    "id": "fe-17",
+    "chapter": "federal-elections",
+    "prompt": "On First Nations reserves, band chiefs and councillors have major responsibilities including:",
+    "choices": [
+      "Appointing Senators",
+      "Commanding the Canadian Forces",
+      "Housing, schools and other services",
+      "Setting the Bank of Canada rate"
+    ],
+    "correctIndex": 2,
+    "explanation": "The guide notes band chiefs and councillors handle major on-reserve responsibilities such as housing and schools.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
+  },
+  {
+    "id": "fe-18",
+    "chapter": "federal-elections",
+    "prompt": "A vote in the House of Commons on a major issue such as the budget is considered a matter of:",
+    "choices": [
+      "Senate privilege",
+      "Royal prerogative only",
+      "Confidence",
+      "Municipal by-law"
+    ],
+    "correctIndex": 2,
+    "explanation": "Major votes such as the budget are confidence matters; defeat usually results in the Prime Minister asking the Governor General to call an election.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/federal-elections.html"
+  },
+  {
+    "id": "ww-13",
+    "chapter": "who-are-canadians",
+    "prompt": "About what share of Aboriginal people in Canada are First Nations?",
+    "choices": [
+      "30%",
+      "65%",
+      "4%",
+      "90%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The guide states about 65% of Aboriginal people are First Nations, 30% Métis and 4% Inuit.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
+  },
+  {
+    "id": "ww-14",
+    "chapter": "who-are-canadians",
+    "prompt": "From the 1800s until the 1980s, many Aboriginal children were placed in residential schools in order to:",
+    "choices": [
+      "Prepare them for seats in the Senate",
+      "Educate and assimilate them into mainstream Canadian culture",
+      "Train them exclusively as interpreters",
+      "Teach only traditional languages"
+    ],
+    "correctIndex": 1,
+    "explanation": "The federal government placed many Aboriginal children in residential schools to educate and assimilate them; the schools inflicted great harm.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
+  },
+  {
+    "id": "ww-15",
+    "chapter": "who-are-canadians",
+    "prompt": "Today there are roughly how many Anglophones (English as a first language) in Canada, per the guide?",
+    "choices": [
+      "2 million",
+      "7 million",
+      "18 million",
+      "34 million"
+    ],
+    "correctIndex": 2,
+    "explanation": "The guide cites about 18 million Anglophones and 7 million Francophones.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
+  },
+  {
+    "id": "ww-16",
+    "chapter": "who-are-canadians",
+    "prompt": "In Vancouver, after English, which languages are among the most spoken at home?",
+    "choices": [
+      "Only Indigenous languages",
+      "Chinese languages (about 13% of the population)",
+      "Only Ukrainian",
+      "Only French"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chinese languages are the second most-spoken at home after English in Vancouver (about 13%) and also prominent in other large cities.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
+  },
+  {
+    "id": "ww-17",
+    "chapter": "who-are-canadians",
+    "prompt": "Gay and lesbian Canadians enjoy:",
+    "choices": [
+      "Limited municipal rights only",
+      "No Charter protection",
+      "Rights that apply only in Quebec",
+      "Full protection of and equal treatment under the law, including civil marriage"
+    ],
+    "correctIndex": 3,
+    "explanation": "Canada’s diversity includes gay and lesbian Canadians with full legal protection and equal treatment, including civil marriage.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
+  },
+  {
+    "id": "ww-18",
+    "chapter": "who-are-canadians",
+    "prompt": "The largest religious affiliation among Canadians who identify as Christian is:",
+    "choices": [
+      "Catholic",
+      "Anglican",
+      "Orthodox",
+      "United Church only"
+    ],
+    "correctIndex": 0,
+    "explanation": "The great majority identify as Christians; the largest affiliation is Catholic, followed by various Protestant churches.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/who-are-canadians.html"
+  },
+  {
+    "id": "sy-13",
+    "chapter": "canadian-symbols",
+    "prompt": "The Canadian Red Ensign served as the national flag for about:",
+    "choices": [
+      "100 years",
+      "25 years",
+      "400 years",
+      "10 years"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Red Ensign served as the national flag for 100 years and has been carried officially by veterans since 2005.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+  },
+  {
+    "id": "sy-14",
+    "chapter": "canadian-symbols",
+    "prompt": "The red-white-red pattern of the current flag comes from the flag of:",
+    "choices": [
+      "The Hudson’s Bay Company",
+      "NATO headquarters",
+      "The Royal Military College, Kingston",
+      "The Province of Quebec"
+    ],
+    "correctIndex": 2,
+    "explanation": "The red-white-red pattern comes from the flag of the Royal Military College, Kingston (founded 1876).",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+  },
+  {
+    "id": "sy-15",
+    "chapter": "canadian-symbols",
+    "prompt": "The National Hockey League plays for the championship Stanley Cup, donated by:",
+    "choices": [
+      "Lord Grey in 1909",
+      "Lord Stanley, the Governor General, in 1892",
+      "Sir John A. Macdonald in 1867",
+      "Queen Elizabeth II in 1965"
+    ],
+    "correctIndex": 1,
+    "explanation": "The symbols chapter notes the NHL plays for the Stanley Cup, donated by Lord Stanley, the Governor General, in 1892.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+  },
+  {
+    "id": "sy-16",
+    "chapter": "canadian-symbols",
+    "prompt": "One main objective of the Official Languages Act (1969) is to:",
+    "choices": [
+      "Make French the only language of Parliament",
+      "Establish equality between French and English in Parliament and the Government of Canada",
+      "Abolish minority language education rights",
+      "Require all provinces to be bilingual"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Act aims to establish equality of French and English in Parliament and federal institutions, among other objectives.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+  },
+  {
+    "id": "sy-17",
+    "chapter": "canadian-symbols",
+    "prompt": "O Canada was first sung in:",
+    "choices": [
+      "Halifax in 1867",
+      "Ottawa in 1965",
+      "Québec City in 1880",
+      "Toronto in 1980"
+    ],
+    "correctIndex": 2,
+    "explanation": "O Canada was first sung in Québec City in 1880 and proclaimed the National Anthem in 1980.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+  },
+  {
+    "id": "sy-18",
+    "chapter": "canadian-symbols",
+    "prompt": "Victoria Day is observed on:",
+    "choices": [
+      "November 11",
+      "The Monday preceding May 25 (the Sovereign’s birthday)",
+      "The second Monday of October",
+      "July 1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Victoria Day falls on the Monday preceding May 25 and marks the Sovereign’s birthday.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+  },
+  {
+    "id": "mc-13",
+    "chapter": "modern-canada",
+    "prompt": "Canada participated in the UN operation defending South Korea in the Korean War (1950–53) with about:",
+    "choices": [
+      "10,000 dead",
+      "50 dead and 100 wounded",
+      "500 dead and 1,000 wounded",
+      "No combat casualties"
+    ],
+    "correctIndex": 2,
+    "explanation": "Canada joined the UN defence of South Korea; about 500 Canadians died and 1,000 were wounded.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
+  },
+  {
+    "id": "mc-14",
+    "chapter": "modern-canada",
+    "prompt": "In 1980, Terry Fox began a cross-country run called the Marathon of Hope to raise money for:",
+    "choices": [
+      "Cancer research",
+      "National parks",
+      "The Canadian Navy",
+      "Olympic training centres"
+    ],
+    "correctIndex": 0,
+    "explanation": "Terry Fox, who lost a leg to cancer, ran to raise money for cancer research and became a Canadian hero.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
+  },
+  {
+    "id": "mc-15",
+    "chapter": "modern-canada",
+    "prompt": "Basketball was invented by Canadian:",
+    "choices": [
+      "James Naismith",
+      "Donovan Bailey",
+      "Wayne Gretzky",
+      "Norman Jewison"
+    ],
+    "correctIndex": 0,
+    "explanation": "James Naismith invented basketball in 1891.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
+  },
+  {
+    "id": "mc-16",
+    "chapter": "modern-canada",
+    "prompt": "The Canadarm, a robotic arm used in outer space, was invented by:",
+    "choices": [
+      "SPAR Aerospace / the National Research Council",
+      "Bell Canada",
+      "The Hudson’s Bay Company",
+      "Elections Canada"
+    ],
+    "correctIndex": 0,
+    "explanation": "SPAR Aerospace and the National Research Council invented the Canadarm used in space.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/modern-canada.html"
+  },
+  {
+    "id": "js-09",
+    "chapter": "justice-system",
+    "prompt": "The Federal Court of Canada deals with matters concerning:",
+    "choices": [
+      "Only municipal parking tickets",
+      "Provincial family law exclusively",
+      "International treaties without Canadian parties",
+      "The federal government"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Federal Court deals with matters concerning the federal government; the Supreme Court is the highest court.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
+  },
+  {
+    "id": "js-10",
+    "chapter": "justice-system",
+    "prompt": "Laws in Canada are made by:",
+    "choices": [
+      "The Governor General without Parliament",
+      "Unelected judges writing all statutes",
+      "Police chiefs alone",
+      "Elected representatives"
+    ],
+    "correctIndex": 3,
+    "explanation": "Laws are written rules made by elected representatives; courts settle disputes and police enforce the law.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
+  },
+  {
+    "id": "js-11",
+    "chapter": "justice-system",
+    "prompt": "Provincial police forces exist in:",
+    "choices": [
+      "Only the Prairie provinces",
+      "Every province and territory",
+      "Only the Atlantic provinces",
+      "Ontario and Quebec (elsewhere the RCMP serve as provincial police and also enforce federal laws)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ontario and Quebec have provincial police; municipal forces exist in all provinces. The RCMP enforce federal laws throughout Canada and serve as the provincial police in all provinces and territories except Ontario and Quebec.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
+  },
+  {
+    "id": "js-12",
+    "chapter": "justice-system",
+    "prompt": "The blindfolded Lady Justice symbolizes that laws are administered:",
+    "choices": [
+      "By the military",
+      "Without written reasons",
+      "Only in secret",
+      "Impartially—blind to all considerations but the facts"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lady Justice’s blindfold symbolizes impartial administration of the law, blind to everything but the facts.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/justice-system.html"
+  },
+  {
+    "id": "ec-07",
+    "chapter": "canadas-economy",
+    "prompt": "Service industries include jobs in areas such as:",
+    "choices": [
+      "Shipbuilding alone",
+      "Exclusive fur trapping",
+      "Only underground mining",
+      "Transportation, education, health care, banking and tourism"
+    ],
+    "correctIndex": 3,
+    "explanation": "Service industries cover transportation, education, health care, construction, banking, communications, retail, tourism and government.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
+  },
+  {
+    "id": "ec-08",
+    "chapter": "canadas-economy",
+    "prompt": "Manufacturing industries in Canada make products including:",
+    "choices": [
+      "Paper, high technology, aerospace, automobiles and food",
+      "Ballot papers exclusively",
+      "Only raw logs for export",
+      "Only agricultural seed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Manufacturing includes paper, high tech, aerospace, automobiles, machinery, food, clothing and more.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
+  },
+  {
+    "id": "ec-09",
+    "chapter": "canadas-economy",
+    "prompt": "Over three-quarters of Canadian exports are destined for:",
+    "choices": [
+      "The United States",
+      "Mexico only",
+      "China",
+      "The United Kingdom"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each is the other’s largest trading partner; over three-quarters of Canadian exports go to the U.S.A.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
+  },
+  {
+    "id": "ec-10",
+    "chapter": "canadas-economy",
+    "prompt": "Canada enacted free trade with the United States in:",
+    "choices": [
+      "1969",
+      "1994",
+      "1867",
+      "1988"
+    ],
+    "correctIndex": 3,
+    "explanation": "Canada enacted free trade with the United States in 1988; Mexico joined via NAFTA in 1994.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
+  },
+  {
+    "id": "ec-11",
+    "chapter": "canadas-economy",
+    "prompt": "The Peace Arch at Blaine, Washington, symbolizes:",
+    "choices": [
+      "Canada’s victory in the War of 1812",
+      "The end of NAFTA",
+      "Confederation in 1867",
+      "Close Canada–U.S. ties and common interests"
+    ],
+    "correctIndex": 3,
+    "explanation": "Inscribed with phrases about common mother and unity, the Peace Arch symbolizes close ties with the United States.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
+  },
+  {
+    "id": "ec-12",
+    "chapter": "canadas-economy",
+    "prompt": "Canada is described as having one of the _____ largest economies in the world.",
+    "choices": [
+      "ten",
+      "hundred",
+      "two",
+      "fifty"
+    ],
+    "correctIndex": 0,
+    "explanation": "The guide says Canada has one of the ten largest economies and is part of the G8.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-economy.html"
+  },
+  {
+    "id": "ap-04",
+    "chapter": "applying-citizenship",
+    "prompt": "When you apply for citizenship, officials will check your status, verify you are not prohibited, and:",
+    "choices": [
+      "Assign you a Senate seat",
+      "Waive the Oath automatically",
+      "Grant a passport immediately",
+      "Ensure that you meet the requirements"
+    ],
+    "correctIndex": 3,
+    "explanation": "Officials check status, prohibitions, and whether you meet the requirements; processing may take months.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
+  },
+  {
+    "id": "ap-05",
+    "chapter": "applying-citizenship",
+    "prompt": "To prepare for the citizenship test, the guide suggests you can:",
+    "choices": [
+      "Ignore the study guide and memorize only the Oath",
+      "Skip language learning entirely",
+      "Study only municipal by-laws",
+      "Ask a friend or family member to help practise questions about Canada"
+    ],
+    "correctIndex": 3,
+    "explanation": "Preparation tips include practising with a friend or family member and seeking citizenship classes or language training.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
+  },
+  {
+    "id": "ap-06",
+    "chapter": "applying-citizenship",
+    "prompt": "The citizenship test is usually:",
+    "choices": [
+      "A provincial driving exam",
+      "Optional for all adults under 65",
+      "An athletic trial",
+      "A written test, but it could be an interview"
+    ],
+    "correctIndex": 3,
+    "explanation": "The test is usually written but may be an interview. It assesses knowledge of Canada and of the rights and responsibilities of citizenship; it is not used to assess English or French.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
+  },
+  {
+    "id": "ap-07",
+    "chapter": "applying-citizenship",
+    "prompt": "All citizenship test questions are based on subject areas in the Citizenship Regulations, and required information is:",
+    "choices": [
+      "Published solely in the Criminal Code",
+      "Secret until election day",
+      "Provided in the Discover Canada study guide",
+      "Only available from private tutors"
+    ],
+    "correctIndex": 2,
+    "explanation": "The guide states all required test information is provided in this study guide.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
+  },
+  {
+    "id": "ap-08",
+    "chapter": "applying-citizenship",
+    "prompt": "At the citizenship ceremony, successful applicants:",
+    "choices": [
+      "Receive only a temporary visitor visa",
+      "Receive their Canadian Citizenship Certificate",
+      "Must renounce the Charter",
+      "Are immediately appointed to the Privy Council"
+    ],
+    "correctIndex": 1,
+    "explanation": "After the Oath ceremony, you receive your Canadian Citizenship Certificate; family and friends are encouraged to attend.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/applying-citizenship.html"
+  },
+  {
+    "id": "oa-03",
+    "chapter": "oath-citizenship",
+    "prompt": "In Canada, the Oath of Citizenship professes loyalty to a person who represents all Canadians, not to:",
+    "choices": [
+      "The Prime Minister",
+      "Elected mayors",
+      "The Sovereign alone",
+      "A document such as a constitution, a flag, or a country as a geopolitical entity"
+    ],
+    "correctIndex": 3,
+    "explanation": "Understanding the Oath: loyalty is to the person of the Sovereign who represents all Canadians, not to a document, banner, or country entity.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html"
+  },
+  {
+    "id": "oa-04",
+    "chapter": "oath-citizenship",
+    "prompt": "At the citizenship ceremony you will:",
+    "choices": [
+      "Repeat the Oath of Citizenship",
+      "Write a new chapter of the Constitution",
+      "Select your province’s capital",
+      "Vote in a snap federal election"
+    ],
+    "correctIndex": 0,
+    "explanation": "The guide’s ceremony video section explains you repeat the Oath of Citizenship at the ceremony.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html"
+  },
+  {
+    "id": "oa-05",
+    "chapter": "oath-citizenship",
+    "prompt": "The Oath includes bearing true allegiance to His Majesty King Charles the Third, King of Canada, and:",
+    "choices": [
+      "His Heirs and Successors",
+      "The Leader of the Opposition",
+      "Only the Governor General personally",
+      "Foreign heads of state generally"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Oath text pledges allegiance to the King of Canada, His Heirs and Successors.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html"
+  },
+  {
+    "id": "oa-06",
+    "chapter": "oath-citizenship",
+    "prompt": "The French version of the Oath begins “Je jure (ou j'affirme solennellement),” showing you may:",
+    "choices": [
+      "Substitute a municipal pledge",
+      "Skip the Oath if bilingual",
+      "Swear or solemnly affirm",
+      "Only swear on a Bible in English"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both language versions allow swearing or solemn affirmation of the Oath.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html"
+  },
+  {
+    "id": "rg-21",
+    "chapter": "canadas-regions",
+    "prompt": "Canada’s land area is about:",
+    "choices": [
+      "10 million square kilometres",
+      "1 million square kilometres",
+      "50 million square kilometres",
+      "100,000 square kilometres"
+    ],
+    "correctIndex": 0,
+    "explanation": "Canada is the second largest country on earth—about 10 million square kilometres.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "rg-22",
+    "chapter": "canadas-regions",
+    "prompt": "Three oceans line Canada’s frontiers:",
+    "choices": [
+      "Pacific, Atlantic and Arctic",
+      "Atlantic, Arctic and Southern",
+      "Pacific, Atlantic and Indian",
+      "Pacific, Arctic and Mediterranean"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Pacific (west), Atlantic (east) and Arctic (north) line Canada’s frontiers.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "rg-23",
+    "chapter": "canadas-regions",
+    "prompt": "Ottawa was chosen as the capital in 1857 by:",
+    "choices": [
+      "The Hudson’s Bay Company",
+      "Sir John A. Macdonald alone",
+      "Queen Victoria",
+      "The United Nations"
+    ],
+    "correctIndex": 2,
+    "explanation": "Queen Victoria chose Ottawa, on the Ottawa River, as the capital in 1857.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "rg-24",
+    "chapter": "canadas-regions",
+    "prompt": "You should know the capital of your province or territory as well as:",
+    "choices": [
+      "The capital of France",
+      "That of Canada",
+      "Only the capital of Quebec",
+      "The capital of every U.S. state"
+    ],
+    "correctIndex": 1,
+    "explanation": "The guide says each province and territory has its own capital, and you should know yours as well as Canada’s.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "rg-25",
+    "chapter": "canadas-regions",
+    "prompt": "More than half the people in Canada live near the Great Lakes and the St. Lawrence River in southern Quebec and Ontario, known as:",
+    "choices": [
+      "Atlantic Canada",
+      "The Northern Territories",
+      "Central Canada",
+      "The Prairie Provinces"
+    ],
+    "correctIndex": 2,
+    "explanation": "Southern Quebec and Ontario form Central Canada, the industrial and manufacturing heartland.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "rg-26",
+    "chapter": "canadas-regions",
+    "prompt": "The Northwest Territories, Nunavut and Yukon together contain about _____ of Canada’s land mass but only about 100,000 people.",
+    "choices": [
+      "one-half",
+      "one-tenth",
+      "one-third",
+      "three-quarters"
+    ],
+    "correctIndex": 2,
+    "explanation": "The three territories contain one-third of Canada’s land mass with a population of only about 100,000.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "rg-27",
+    "chapter": "canadas-regions",
+    "prompt": "The Canadian Rangers, part of the Canadian Forces Reserves, play a key role in the North by:",
+    "choices": [
+      "Operating the Bank of Canada",
+      "Helping with security and sovereignty challenges, drawing on Indigenous knowledge and experience",
+      "Collecting federal income tax",
+      "Running provincial courts"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drawing on Indigenous knowledge and experience, the Canadian Rangers help address security and sovereignty challenges in Canada’s vast North.",
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nl-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Newfoundland and Labrador has its own:",
+    "choices": [
+      "National parliament separate from Canada",
+      "Desert climate",
+      "Time zone",
+      "Official language other than English or French only"
+    ],
+    "correctIndex": 2,
+    "explanation": "As the most easterly point in North America, Newfoundland and Labrador has its own time zone.",
+    "provinceIds": [
+      "nl"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nl-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Newfoundland and Labrador is described as the oldest colony of the:",
+    "choices": [
+      "French Empire in the Pacific",
+      "Spanish Americas",
+      "Dutch East India Company",
+      "British Empire in what is now Canada"
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide links the province’s unique heritage to the sea and calls it the oldest colony of the British Empire in the region.",
+    "provinceIds": [
+      "nl"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "pe-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Prince Edward Island is connected to mainland Canada by:",
+    "choices": [
+      "Ferry service only, with no bridge",
+      "The Trans-Canada monorail",
+      "One of the longest continuous multi-span bridges in the world",
+      "A tunnel under the Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "explanation": "P.E.I., birthplace of Confederation, is connected by one of the longest continuous multi-span bridges in the world.",
+    "provinceIds": [
+      "pe"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "pe-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Prince Edward Island is especially known agriculturally for:",
+    "choices": [
+      "Rice paddies",
+      "Potatoes",
+      "Citrus groves",
+      "Coffee plantations"
+    ],
+    "correctIndex": 1,
+    "explanation": "P.E.I. is known for beaches, red soil and agriculture, especially potatoes.",
+    "provinceIds": [
+      "pe"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "ns-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Nova Scotia is known for the world’s highest tides in the:",
+    "choices": [
+      "Georgian Bay",
+      "Bay of Biscay",
+      "Bay of Fundy",
+      "Hudson Bay"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nova Scotia is known for the world’s highest tides in the Bay of Fundy, plus shipbuilding and fishing heritage.",
+    "provinceIds": [
+      "ns"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "ns-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Among the Atlantic provinces, Nova Scotia is:",
+    "choices": [
+      "Not on the Atlantic",
+      "The most populous Atlantic province",
+      "The least populous",
+      "A territory, not a province"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nova Scotia is the most populous Atlantic province and a historic gateway to Canada.",
+    "provinceIds": [
+      "ns"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nb-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "New Brunswick was founded by:",
+    "choices": [
+      "The Métis of Red River",
+      "Viking settlers at l’Anse aux Meadows",
+      "The Hudson’s Bay Company alone",
+      "The United Empire Loyalists"
+    ],
+    "correctIndex": 3,
+    "explanation": "Situated in the Appalachian Range, New Brunswick was founded by the United Empire Loyalists.",
+    "provinceIds": [
+      "nb"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nb-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "New Brunswick has the second largest river system on North America’s Atlantic coastline, the:",
+    "choices": [
+      "Mackenzie River system",
+      "St. John River system",
+      "Ottawa River system",
+      "Fraser River system"
+    ],
+    "correctIndex": 1,
+    "explanation": "The St. John River system is the second largest on North America’s Atlantic coastline.",
+    "provinceIds": [
+      "nb"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "qc-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Nearly eight million people live in Quebec; more than three-quarters speak _____ as their first language.",
+    "choices": [
+      "French",
+      "German",
+      "Inuktitut",
+      "English"
+    ],
+    "correctIndex": 0,
+    "explanation": "The vast majority live along or near the St. Lawrence; more than three-quarters speak French as their first language.",
+    "provinceIds": [
+      "qc"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "qc-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Quebec’s huge supply of fresh water has made it Canada’s largest producer of:",
+    "choices": [
+      "Hydro-electricity",
+      "Diamonds",
+      "Offshore oil",
+      "Wheat"
+    ],
+    "correctIndex": 0,
+    "explanation": "The guide states Quebec’s huge supply of fresh water has made it Canada’s largest producer of hydro-electricity.",
+    "provinceIds": [
+      "qc"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "on-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Toronto is Canada’s largest city and the country’s main:",
+    "choices": [
+      "Financial centre",
+      "Diamond mining hub",
+      "Pacific port",
+      "Naval base"
+    ],
+    "correctIndex": 0,
+    "explanation": "Toronto is the largest city in Canada and the country’s main financial centre.",
+    "provinceIds": [
+      "on"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "on-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Ontario’s vital economy is helped by its large population, natural resources and:",
+    "choices": [
+      "Having no manufacturing",
+      "Being landlocked from all trade",
+      "Strategic location",
+      "A population under one million"
+    ],
+    "correctIndex": 2,
+    "explanation": "The guide credits Ontario’s diverse population, natural resources and strategic location for a vital economy.",
+    "provinceIds": [
+      "on"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "mb-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Manitoba’s economy is based on agriculture, mining and:",
+    "choices": [
+      "Offshore petroleum only",
+      "Hydro-electric power generation",
+      "Automobile assembly alone",
+      "Tropical fruit exports"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manitoba’s economy is based on agriculture, mining and hydro-electric power generation.",
+    "provinceIds": [
+      "mb"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "mb-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Manitoba’s most populous city is:",
+    "choices": [
+      "Winnipeg",
+      "Regina",
+      "Calgary",
+      "Thunder Bay"
+    ],
+    "correctIndex": 0,
+    "explanation": "Winnipeg is Manitoba’s most populous city; its Exchange District includes Portage and Main.",
+    "provinceIds": [
+      "mb"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "sk-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Saskatchewan is the country’s largest producer of:",
+    "choices": [
+      "Softwood lumber exclusively",
+      "Automobiles",
+      "Atlantic lobster",
+      "Grains and oilseeds"
+    ],
+    "correctIndex": 3,
+    "explanation": "Once the “breadbasket” and “wheat province,” Saskatchewan is Canada’s largest producer of grains and oilseeds.",
+    "provinceIds": [
+      "sk"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "sk-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Saskatchewan also boasts the world’s richest deposits of:",
+    "choices": [
+      "Coffee",
+      "Diamonds only",
+      "Tea",
+      "Potash"
+    ],
+    "correctIndex": 3,
+    "explanation": "Besides vast arable land, Saskatchewan has the world’s richest potash deposits.",
+    "provinceIds": [
+      "sk"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "ab-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Alberta and Lake Louise were named after:",
+    "choices": [
+      "Princess Louise Caroline Alberta, fourth daughter of Queen Victoria",
+      "Sir John A. Macdonald’s daughter",
+      "Laura Secord",
+      "Agnes Macphail"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both the province and Lake Louise were named after Princess Louise Caroline Alberta, Queen Victoria’s fourth daughter.",
+    "provinceIds": [
+      "ab"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "ab-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Among the Prairie provinces, Alberta is:",
+    "choices": [
+      "The most populous Prairie province",
+      "The least populous",
+      "Not a Prairie province",
+      "A territory"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alberta is the most populous of the Prairie Provinces (Manitoba, Saskatchewan and Alberta).",
+    "provinceIds": [
+      "ab"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "yt-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Mount Logan is named in honour of Sir William Logan, who founded and directed the:",
+    "choices": [
+      "Royal Canadian Navy",
+      "Bank of Canada",
+      "Geological Survey of Canada",
+      "Hudson’s Bay Company"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sir William Logan founded and directed the Geological Survey of Canada (1842–1869); Mount Logan in Yukon is named for him.",
+    "provinceIds": [
+      "yt"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "yt-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "The White Pass and Yukon Railway opened from Skagway, Alaska, to:",
+    "choices": [
+      "Winnipeg",
+      "Yellowknife",
+      "Iqaluit",
+      "Whitehorse"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mining and Gold Rush heritage include the White Pass and Yukon Railway from Skagway to Whitehorse.",
+    "provinceIds": [
+      "yt"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nt-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Yellowknife, capital of the Northwest Territories, is called the:",
+    "choices": [
+      "Pacific gateway",
+      "Oil capital of Canada",
+      "Birthplace of Confederation",
+      "“Diamond capital of North America”"
+    ],
+    "correctIndex": 3,
+    "explanation": "Yellowknife (population about 20,000) is called the diamond capital of North America.",
+    "provinceIds": [
+      "nt"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nt-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "The Northwest Territories were originally made up in 1870 from Rupert’s Land and:",
+    "choices": [
+      "Acadia alone",
+      "The North-Western Territory",
+      "The Oregon Territory",
+      "New France"
+    ],
+    "correctIndex": 1,
+    "explanation": "The N.W.T. were formed in 1870 from Rupert’s Land and the North-Western Territory.",
+    "provinceIds": [
+      "nt"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nu-fact-02",
+    "chapter": "canadas-regions",
+    "prompt": "Nunavut was established in 1999 from the eastern part of the Northwest Territories, including all of the former:",
+    "choices": [
+      "Colony of Acadia",
+      "District of Keewatin",
+      "District of Assiniboia only",
+      "Province of Canada"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nunavut was created in 1999 from the eastern N.W.T., including all of the former District of Keewatin.",
+    "provinceIds": [
+      "nu"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+  },
+  {
+    "id": "nu-fact-03",
+    "chapter": "canadas-regions",
+    "prompt": "Iqaluit, the capital of Nunavut, was formerly known as:",
+    "choices": [
+      "Frobisher Bay",
+      "Dawson City",
+      "Churchill",
+      "Port Radium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Iqaluit, formerly Frobisher Bay, is Nunavut’s capital; the name Nunavut means “our land” in Inuktitut.",
+    "provinceIds": [
+      "nu"
+    ],
+    "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
   }
 ]

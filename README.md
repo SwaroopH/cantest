@@ -8,11 +8,11 @@ This is **not** an official IRCC test. Only the Discover Canada study guide is a
 
 ## Features
 
-- **Province/territory picker**: filters local capital/region questions; saved in `localStorage`
-- **Mock exam**: 20 questions, 30-minute timer, pass at 15/20; stratified chapter mix with ≥1 local/regions question
+- **Province/territory picker**: guarantees a question about your own province each mock while keeping all regions in play; saved in `localStorage`
+- **Mock exam**: 20 questions, 30-minute timer, pass at 15/20; curated chapter blueprint with ≥1 local question and soft de-prioritisation of recently seen items
 - **Practice by chapter**: untimed, immediate feedback and source links
 - **Review**: per-question explanations after submit
-- **160+ MCQs** grounded in scraped guide content (includes the 3 official study-guide MCQs)
+- **260+ MCQs** grounded in scraped guide content (includes the 3 official study-guide MCQs)
 
 ## Setup
 

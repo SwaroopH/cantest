@@ -8,8 +8,8 @@ import {
   CHAPTERS,
   MOCK_DURATION_SECONDS,
   PASS_SCORE,
+  RECENT_MEMORY_LIMIT,
   filterByChapter,
-  filterForProvince,
   loadProgress,
   sampleMockExam,
   saveProgress,
@@ -44,18 +44,14 @@ export default function App() {
 
   const provinceId = progress.provinceId;
   const province = getProvince(provinceId);
-  const scopedBank = useMemo(
-    () => filterForProvince(bank, provinceId),
-    [bank, provinceId],
-  );
 
   const chapterCounts = useMemo(() => {
     const counts: Record<string, number> = {};
-    for (const q of scopedBank) {
+    for (const q of bank) {
       counts[q.chapter] = (counts[q.chapter] ?? 0) + 1;
     }
     return counts;
-  }, [scopedBank]);
+  }, [bank]);
 
   const coverage = useMemo<CoverageRow[]>(
     () =>
@@ -103,7 +99,15 @@ export default function App() {
 
   function startMock() {
     finishingRef.current = false;
-    const questions = sampleMockExam(bank, provinceId);
+    const questions = sampleMockExam(bank, provinceId, progress.recentQuestionIds);
+    setProgress(
+      saveProgress({
+        recentQuestionIds: [
+          ...progress.recentQuestionIds,
+          ...questions.map((q) => q.id),
+        ].slice(-RECENT_MEMORY_LIMIT),
+      }),
+    );
     setSession({
       mode: "mock",
       questions,
@@ -116,7 +120,7 @@ export default function App() {
 
   function startPractice() {
     finishingRef.current = false;
-    const questions = filterByChapter(bank, practiceChapter, provinceId);
+    const questions = filterByChapter(bank, practiceChapter);
     if (questions.length === 0) return;
     setSession({
       mode: "practice",
@@ -224,7 +228,7 @@ export default function App() {
       <SiteHeader onHome={goHome} shortLabel={province.shortLabel} />
       <HomeScreen
         province={province}
-        questionCount={scopedBank.length}
+        questionCount={bank.length}
         coverage={coverage}
         chapterCounts={chapterCounts}
         practiceChapter={practiceChapter}

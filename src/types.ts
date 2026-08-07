@@ -8,7 +8,7 @@ export type Question = {
   correctIndex: 0 | 1 | 2 | 3;
   explanation: string;
   sourceUrl: string;
-  /** If set, question only appears when the learner's province is listed. */
+  /** If set, marks the question as local to those provinces (guaranteed mock slot). */
   provinceIds?: ProvinceId[];
 };
 
@@ -31,4 +31,5 @@ export type ProgressStore = {
   lastMockPassed: boolean | null;
   lastMockAt: string | null;
   practiceAnswered: number;
+  recentQuestionIds: string[];
 };
